@@ -1,0 +1,35 @@
+{
+  "name": "Bell Chiropractic & Pain Management",
+  "version": "1.0.0",
+  "author": "K. Michael Milligan",
+  "description": "Bell Chriopractic and Pain Management; Serving St. Louis since 1977; Florissant, Missouri; Telemedicine; Car Accidents; Medical Marijuana Certification; Medical Marijuana; Low Testosterone Therapy; Low T Therapy; Low-T Therapy; Decompression",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "build": "gatsby build --prefix-paths",
+    "serve": "gatsby serve",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.9.9",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/styles": "^4.9.6",
+    "gatsby": "^2.20.14",
+    "gatsby-plugin-react-helmet": "^3.2.1",
+    "gatsby-plugin-remove-serviceworker": "^1.0.0",
+    "gatsby-plugin-stylus": "^2.2.1",
+    "gatsby-source-filesystem": "^2.2.2",
+    "gatsby-transformer-remark": "^2.7.1",
+    "gh-pages": "^2.2.0",
+    "jss": "^10.1.1",
+    "mdi-material-ui": "^6.13.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^5.2.1",
+    "react-jss": "^10.1.1",
+    "react-swipeable-views": "^0.13.9",
+    "react-swipeable-views-utils": "^0.13.9"
+  }
+}
