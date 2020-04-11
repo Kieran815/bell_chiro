@@ -2,7 +2,6 @@ import React from "react";
 import { StaticQuery, graphql } from "gatsby";
 import { Link } from "gatsby";
 import Menu from "./Menu";
-import TemporaryDrawer from "./SwipeableMenu";
 import MenuMobile from "./MenuMobile";
 import Hidden from "@material-ui/core/Hidden";
 import Grid from "@material-ui/core/Grid";
@@ -39,7 +38,6 @@ const Header = props => {
             <Hidden smDown>
               <Typography component="span" variant="caption">
                 <Menu />
-                <TemporaryDrawer />
               </Typography>
             </Hidden>
             <Hidden mdUp>

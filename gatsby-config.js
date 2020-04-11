@@ -8,6 +8,12 @@ module.exports = {
     },
     menuLinks: [
       {
+        name: "About",
+        link: "/team"
+      }
+    ],
+    serviceLinks: [
+      {
         name: "Primary Care Services",
         link: "/products/primary_care"
       },
@@ -41,10 +47,6 @@ module.exports = {
       {
         name: "DOT Physicals",
         link: "/products/DOT_physicals"
-      },
-      {
-        name: "Team",
-        link: "/team"
       }
     ]
   },

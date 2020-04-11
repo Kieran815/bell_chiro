@@ -31,13 +31,13 @@ const List = props => {
             frontmatter: {
               path,
               title,
-              image: { publicURL },
-            },
-          },
+              image: { publicURL }
+            }
+          }
         } = edge;
         return (
           <Grid item xs={12} md={6} key={path}>
-            <Card>
+            <Card style={{ margin: "0.5em" }}>
               <CardMedia
                 className={classes.cardMedia}
                 image={withPrefix(publicURL)}
