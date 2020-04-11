@@ -26,16 +26,16 @@ Dont live in pain from someone else's mistake, get treatment today."
 
 ## Frequently Asked Questions
 
-- Do I need an Attorney?
+- **Do I need an Attorney?**
 
   No, but we always recommend them. You are going up against multi-billion dollar corporations who have "adjusters" looking to reduce every penny owed to you with a legal team of highly paid lawyers looking to get away with whatever they "legally" can. We have been in Florissant since 1977 and have worked with just about every law firm out there, just let us know who represents you or we can refer you to one.
 
-- What will this cost me?
+- **What will this cost me?**
 
   Nothing! We work on a lien, and with your attorney. When the case gets settled we get paid from the proceeds of the settlement. You pay us nothing up front!
   We just want to see you get better and have a great team to do it.
 
-- What do you offer for treatment?
+- **What do you offer for treatment?**
 
   That depends on your injuries. We can adjust you, use class III lasers, trigger point injections, medications, physical therapy, massage and more. Whatever it is we do, you will always leave our office feeling better than when you came in.
 

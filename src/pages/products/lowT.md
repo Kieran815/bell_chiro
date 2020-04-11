@@ -25,7 +25,7 @@ image: "./test_scrab.jpg"
 <br/>
 <br/>
 
-<h2>What is Testosterone?</h2>
+## What is Testosterone?
 
 Testosterone is the primary male sex hormone and is an anabolic steroid. It’s responsible for giving men their masculine traits, even before they’re born.
 
@@ -41,7 +41,7 @@ Primarily produced in the testes, Testosterone plays an important role in a man�
 
 From these factors alone, it’s easy to see how important healthy levels of Testosterone are. Men usually hit peak production during adolescence and carry their highest levels into early adulthood.
 
-Medical professionals also recognize Testosterone as a fundamental part of a man’s wellbeing for these reasons.
+Medical professionals also recognize Testosterone as a fundamental part of a man’s well-being for these reasons.
 
 Normal T ranges vary between 300-1000 ng/dL, which can be influenced by health, age and lifestyle factors. For example, <a href="https://spotmebro.com/lifestyle/alcohol-and-Testosterone-are-you-drinking-away-your-gains/" target="blank" rel="noopener noreferrer">alcoholism may lower Testosterone</a>, while heavy resistance training might increase it.
 
@@ -54,9 +54,12 @@ If a man’s serum levels fall below this amount, he could be diagnosed with Low
 <div id="Low Testosterone in Men">
 <br/>
 <br/>
-<h2>Low Testosterone in Men</h2>
-<img src="https://cdn1.thecomeback.com/wp-content/uploads/2019/07/test-booster.png" style="display: block; max-width: 80vw; margin-left: auto; margin-right: auto;")
+
+## Low Testosterone in Men
+
+<img src="https://cdn1.thecomeback.com/wp-content/uploads/2019/07/test-booster.png" style="display: block; max-width: 80vw; margin-left: auto; margin-right: auto;" />
 <br/>
+
 <p>Low Testosterone, also known as hypogonadism, is a growing concern among men today. Not only are we living longer, but sedentary and stressful lives are also affecting our androgens. To put it bluntly many of us are sending our hormone health into decline.
 </p>
 
@@ -72,8 +75,8 @@ Spotting signs of Testosterone decline can be quite a tough time for men. If you
 
 <div id="signs">
 <br/>
-<br/>
-<h2>Signs & Symptoms of Low Testosterone</h2>
+
+## Signs & Symptoms of Low Testosterone
 
 Worried about your levels of free-flowing T? Take a look at this list of Low Testosterone signs and symptoms:
 
@@ -92,14 +95,14 @@ Worried about your levels of free-flowing T? Take a look at this list of Low Tes
 
 <div id="causes">
 <br/>
-<br/>
-<h2>Causes of Low Testosterone</h2>
+
+## Causes of Low Testosterone
 
 The causes of Low Testosterone can vary from man to man. While we’re all susceptible to suffering from the symptoms of a hormone imbalance, we’re still individuals. The way your body reacts to certain stimuli isn’t always the same as somebody else’s.
 
 Let’s take a look at the causes of hormonal decline…
 
-<h3>Primary hypogonadism</h3>
+### Primary hypogonadism
 
 For some men, Low Testosterone could be due to medical issues in the testes. This is known as primary hypogonadism and may be caused by:
 
@@ -112,7 +115,7 @@ For some men, Low Testosterone could be due to medical issues in the testes. Thi
 
 It’s possible for medical issues resulting in primary hypogonadism to happen at any point in your life. For example, if your body doesn’t produce ample amounts of T during fetal development, you may be born with underdeveloped genitals. Furthermore, if you fall victim to injuring both testicles later in life, you might develop hypogonadism.
 
-<h3>Secondary hypogonadism</h3>
+### Secondary hypogonadism
 
 On the other hand, issues triggered by the pituitary or hypothalamus (inside the brain) results in improper function of the testes. This is referred to as secondary hypogonadism, which could be caused by:
 
@@ -127,7 +130,7 @@ On the other hand, issues triggered by the pituitary or hypothalamus (inside the
 
 Just as with primary hypogonadism, secondary hypogonadism can occur at any point. This may be during fetal development, childhood, puberty, or adult life.
 
-<h3>The Lifestyle Link</h3>
+### The Lifestyle Link
 
 But, what about seemingly healthy men who suffer from symptoms of Low Testosterone? If they don’t knowingly have a medical issue, what could be the root of their problems?
 
@@ -145,8 +148,8 @@ While Testosterone production might not be optimized overnight, you’ll give yo
 
 <div id="effects">
 <br/>
-<br/>
-<h2>Health effects of Low Testosterone</h2>
+
+## Health effects of Low Testosterone
 
 Low Testosterone is a growing concern because of its various health effects. These range from mild inconvenience such as irritability, to rather serious issues such as infertility and depression.
 
@@ -187,8 +190,8 @@ Let’s examine the possible ways of treating Testosterone…
 
 <div id="trt">
 <br/>
-<br/>
-<h2>Testosterone Replacement Therapy</h2>
+
+## Testosterone Replacement Therapy
 
 A lot of men who receive Testosterone therapy claim their mood, sex life, and energy levels improve. For many, being administered medically approved Testosterone Replacement Therapy, or TRT, helps them reclaim their vigor, confidence, and physical prowess.
 
@@ -213,34 +216,34 @@ Because TRT is a relatively new discovery, the long-term risks aren’t currentl
 
 <div id="faq">
 <br/>
-<br/>
-<h2>Frequently Asked Questions:</h2>
 
-- What are normal Testosterone levels?
+## Frequently Asked Questions:
+
+- **What are normal Testosterone levels?**
 
   Normal Testosterone levels for healthy men are between 350 ng/dL and 1000 ng/dL. Many factors can influence this number such as age, health, and lifestyle.
 
-- How do I know what my Testosterone levels are?
+- **How do I know what my Testosterone levels are?**
 
   To find out how your T levels stand up against the average you’ll need to undergo tests from a doctor. If you face any of the symptoms listed earlier, you might have Low Testosterone.
 
-- Can you raise Testosterone naturally?
+- **Can you raise Testosterone naturally?**
 
   Yes! Testosterone replacement therapy isn’t the only hope for men facing Low Testosterone. Depending on your circumstance and severity, you may be able to increase levels with a few lifestyle changes. A good place to start is to reduce overall bodyfat, exercise more, and sleep better. Also, if you’re able to, have more sex.
 
-- How much is this going to cost me?
+- **How much is this going to cost me?**
 
   Our 1 month package starts at only \$150
 
-- Do you draw my blood for lab work and is that included in the price?
+- **Do you draw my blood for lab work and is that included in the price?**
 
   Yes and Yes.
 
-- What are my options for taking steroids if I need them?
+- **What are my options for taking steroids if I need them?**
 
   We can inject you here in office or you can use gels, rubs, or even sprays! When you come talk with us we can discuss your options.
 
-- How quickly do you feel results?
+- **How quickly do you feel results?**
 
   Usually within the first day you should feel an effect.
 

@@ -25,7 +25,7 @@ const Detail = ({ classes, data }) => {
   return (
     <Page>
       <SEO title={title} />
-      <Card>
+      <Card style={{ padding: "2em" }}>
         <CardMedia
           className={classes.cardMedia}
           image={withPrefix(publicURL)}
