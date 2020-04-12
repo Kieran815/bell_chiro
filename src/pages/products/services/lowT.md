@@ -1,5 +1,5 @@
 ---
-path: "/products/low_t_therapy"
+path: "/products/services/low_t_therapy"
 title: "Low Testosterone Therapy"
 date: 2020-04-07T15:43:42
 image: "./test_scrab.jpg"

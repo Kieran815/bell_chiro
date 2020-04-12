@@ -1,5 +1,5 @@
 ---
-path: "/products/primary_care"
+path: "/products/services/primary_care"
 title: "Primary Care Services"
 date: 2020-04-08T13:10:42
 image: "./primary_banner.jpg"

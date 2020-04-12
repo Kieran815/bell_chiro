@@ -1,5 +1,5 @@
 ---
-path: "/products/accident"
+path: "/products/services/accident"
 title: "Car Accidents"
 date: 2020-04-07T14:31:42
 image: "./car-accident.jpg"

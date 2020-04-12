@@ -8,45 +8,63 @@ module.exports = {
     },
     menuLinks: [
       {
+        name: "Store",
+        link: "/products/items/"
+      },
+      {
         name: "About",
         link: "/team"
       }
     ],
     serviceLinks: [
       {
+        name: "View All Services",
+        link: "/products/services/"
+      },
+      {
         name: "Primary Care Services",
-        link: "/products/primary_care"
+        link: "/products/services/primary_care"
       },
       {
         name: "Decompression",
-        link: "/products/decompression"
+        link: "/products/services/decompression"
       },
       {
         name: "Testosterone  Replacement Therapy",
-        link: "/products/low_t_therapy"
+        link: "/products/services/low_t_therapy"
       },
       {
         name: "Car Accidents",
-        link: "/products/accident"
+        link: "/products/services/accident"
       },
       {
         name: "Medical Marijuana Certification",
-        link: "/products/med_cert_eval"
+        link: "/products/services/med_cert_eval"
       },
 
       {
         name: "Telemedicine",
-        link: "/products/telemedicine"
+        link: "/products/services/telemedicine"
       },
 
       {
         name: "Decompression",
-        link: "/products/decompression"
+        link: "/products/services/decompression"
       },
 
       {
         name: "DOT Physicals",
-        link: "/products/DOT_physicals"
+        link: "/products/services/DOT_physicals"
+      }
+    ],
+    itemLinks: [
+      {
+        name: "View All Items",
+        link: "/products/items/"
+      },
+      {
+        name: "Bath Bombs",
+        link: "/products/items/bath_bomb_150"
       }
     ]
   },

@@ -1,5 +1,5 @@
 ---
-path: "/products/med_cert_eval"
+path: "/products/services/med_cert_eval"
 title: "Medical Certification Evaluation"
 date: 2020-04-07T13:11:46+10:00
 image: "./galina-n-200668-unsplash.jpg"

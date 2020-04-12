@@ -1,5 +1,5 @@
 ---
-path: "/products/decompression"
+path: "/products/services/decompression"
 title: "Cervical and Spinal Decompression"
 date: 2020-04-08T13:08:42
 image: "./adjustment.png"

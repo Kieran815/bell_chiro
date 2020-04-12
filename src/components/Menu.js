@@ -66,7 +66,8 @@ const Menu = withStyles(styles)(props => {
     data: {
       site: {
         siteMetadata: { menuLinks },
-        siteMetadata: { serviceLinks }
+        siteMetadata: { serviceLinks },
+        siteMetadata: { itemLinks }
       }
     }
   } = props;
@@ -76,7 +77,7 @@ const Menu = withStyles(styles)(props => {
       <div>
         <Button
           ref={anchorRef}
-          color="white"
+          color="inherit"
           aria-controls={open ? "menu-list-grow" : undefined}
           aria-haspopup="true"
           onClick={handleToggle}
