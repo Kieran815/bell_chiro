@@ -33,7 +33,7 @@ const Menu = withStyles(styles)(props => {
   const [open, setOpen] = React.useState(false);
   const anchorRef = React.useRef(null);
 
-  const handleToggle = () => {
+  const handleToggle = event => {
     setOpen(prevOpen => !prevOpen);
   };
 
@@ -74,6 +74,7 @@ const Menu = withStyles(styles)(props => {
 
   return (
     <div id="menu-root" style={{ display: "flex", alignItems: "center" }}>
+      {/*Services Button*/}
       <div>
         <Button
           ref={anchorRef}
@@ -118,6 +119,51 @@ const Menu = withStyles(styles)(props => {
           )}
         </Popper>
       </div>
+      {/*Store Button*/}
+      <div>
+        <Button
+          ref={anchorRef}
+          color="inherit"
+          aria-controls={open ? "menu-list-grow" : undefined}
+          aria-haspopup="true"
+          onClick={handleToggle}
+        >
+          Store
+        </Button>
+        <Popper
+          open={open}
+          anchorEl={anchorRef.current}
+          role={undefined}
+          transition
+          disablePortal
+        >
+          {({ TransitionProps, placement }) => (
+            <Grow
+              {...TransitionProps}
+              style={{
+                transformOrigin:
+                  placement === "bottom" ? "center top" : "center bottom"
+              }}
+            >
+              <Paper>
+                <ClickAwayListener onClickAway={handleClose}>
+                  <MenuList
+                    autoFocusItem={open}
+                    id="menu-list-grow"
+                    onKeyDown={handleListKeyDown}
+                  >
+                    {itemLinks.map(item => (
+                      <MenuItem onClick={handleClose} key={item.name}>
+                        <a href={item.link}>{item.name}</a>
+                      </MenuItem>
+                    ))}
+                  </MenuList>
+                </ClickAwayListener>
+              </Paper>
+            </Grow>
+          )}
+        </Popper>
+      </div>
       {/*Page Nav Links*/}
       <div>
         {menuLinks.map(link => (
@@ -152,6 +198,10 @@ export default props => (
               link
             }
             serviceLinks {
+              name
+              link
+            }
+            itemLinks {
               name
               link
             }

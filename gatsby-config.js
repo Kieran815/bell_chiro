@@ -8,10 +8,6 @@ module.exports = {
     },
     menuLinks: [
       {
-        name: "Store",
-        link: "/products/items/"
-      },
-      {
         name: "About",
         link: "/team"
       }

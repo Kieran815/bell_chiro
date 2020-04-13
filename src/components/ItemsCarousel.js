@@ -47,7 +47,7 @@ const styles = theme => ({
         }
       `}
       render={data => (
-        <div>
+        <div style={{ marginBottom: "2em" }}>
           <Card
             title="Health & Wellness Products"
             avatar={

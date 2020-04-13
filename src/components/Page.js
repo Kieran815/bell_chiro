@@ -1,17 +1,17 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import { Grid, Typography } from "@material-ui/core";
+import { Grid, Typography, Avatar } from "@material-ui/core";
 import withStyles from "@material-ui/styles/withStyles";
 import "../css/style.styl";
 
 const styles = {
   container: {
-    marginTop: 94,
+    marginTop: 94
   },
   contentBox: {
     maxWidth: "calc(1136px - 60px)",
-    width: "calc(100% - 60px)",
+    width: "calc(100% - 60px)"
   },
   title: {
     textAlign: "center"
@@ -20,7 +20,7 @@ const styles = {
 
 class Page extends React.Component {
   render() {
-    const { classes, title, children } = this.props;
+    const { classes, title, avatar, children } = this.props;
     return (
       <>
         <Header />
@@ -30,16 +30,10 @@ class Page extends React.Component {
           direction="row"
           justify="center"
         >
-          <Grid
-            className={classes.contentBox}
-            item
-          >
+          <Grid className={classes.contentBox} item>
+            {avatar ? <Avatar src={classes.avatar} /> : null}
             {title ? (
-              <Typography
-                className={classes.title}
-                variant="h2"
-                gutterBottom
-              >
+              <Typography className={classes.title} variant="h2" gutterBottom>
                 {title}
               </Typography>
             ) : null}

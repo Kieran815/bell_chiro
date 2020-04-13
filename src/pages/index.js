@@ -12,6 +12,7 @@ import Avatar from "@material-ui/core/Avatar";
 import Button from "@material-ui/core/Button";
 import withStyles from "@material-ui/styles/withStyles";
 import { Gift } from "mdi-material-ui";
+import bellBanner from "./images/bell_logo_dark_banner.jpg";
 
 const styles = theme => ({
     root: {
@@ -21,7 +22,7 @@ const styles = theme => ({
   Home = props => {
     const products = props.data.allMarkdownRemark.edges;
     return (
-      <Page title="Bell Chiropractic & Pain Management">
+      <Page avatar={bellBanner}>
         <SEO title="Home">
           <meta
             name="description"

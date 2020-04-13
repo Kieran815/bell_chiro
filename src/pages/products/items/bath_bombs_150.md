@@ -5,8 +5,6 @@ date: 2020-04-12T12:59:42
 image: "./bath_bomb_150.webp"
 ---
 
-**Image**
-![Bath Bomb 150mg]()
 These bath bombs are all made by hand with all natural ingredients.
 
 Enjoy a long warm soaking bath with our 150mg formula.
@@ -15,14 +13,20 @@ We found that allowing the oil to soak into your skin when exiting the tub and N
 
 **Ingredients:**
 
-Epsom Salt, Baking Soda, Mct Oil, Citric Acid, Cornstarch, Essential Oil Scent, Essential Oil Coloring
+- Epsom Salt
+- Baking Soda
+- Mct Oil
+- Citric Acid
+- Cornstarch
+- Essential Oil Scent
+- Essential Oil Coloring
 
 150mg each
 
 Mint Scented
 
-Bath Bombs 150mg
-$25.00 Regular Price$15.00Sale Price
+Price: $25.00 $15.00!!!
+
 Color
 
 **Quantity**
