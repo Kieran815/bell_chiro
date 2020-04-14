@@ -4,13 +4,9 @@ import Button from "@material-ui/core/Button";
 import IconButton from "@material-ui/core/IconButton";
 import { Facebook } from "@material-ui/icons";
 import withStyles from "@material-ui/styles/withStyles";
-import ClickAwayListener from "@material-ui/core/ClickAwayListener";
-import Grow from "@material-ui/core/Grow";
-import Paper from "@material-ui/core/Paper";
-import Popper from "@material-ui/core/Popper";
-import MenuItem from "@material-ui/core/MenuItem";
-import MenuList from "@material-ui/core/MenuList";
 import { makeStyles } from "@material-ui/core/styles";
+import ServicesButton from "./ServicesButton";
+import StoreButton from "./StoreButton";
 
 const styles = theme => ({
   menuButton: {
@@ -65,106 +61,15 @@ const Menu = withStyles(styles)(props => {
     classes,
     data: {
       site: {
-        siteMetadata: { menuLinks },
-        siteMetadata: { serviceLinks },
-        siteMetadata: { itemLinks }
+        siteMetadata: { menuLinks }
       }
     }
   } = props;
 
   return (
     <div id="menu-root" style={{ display: "flex", alignItems: "center" }}>
-      {/*Services Button*/}
-      <div>
-        <Button
-          ref={anchorRef}
-          color="inherit"
-          aria-controls={open ? "menu-list-grow" : undefined}
-          aria-haspopup="true"
-          onClick={handleToggle}
-        >
-          Services
-        </Button>
-        <Popper
-          open={open}
-          anchorEl={anchorRef.current}
-          role={undefined}
-          transition
-          disablePortal
-        >
-          {({ TransitionProps, placement }) => (
-            <Grow
-              {...TransitionProps}
-              style={{
-                transformOrigin:
-                  placement === "bottom" ? "center top" : "center bottom"
-              }}
-            >
-              <Paper>
-                <ClickAwayListener onClickAway={handleClose}>
-                  <MenuList
-                    autoFocusItem={open}
-                    id="menu-list-grow"
-                    onKeyDown={handleListKeyDown}
-                  >
-                    {serviceLinks.map(service => (
-                      <MenuItem onClick={handleClose} key={service.name}>
-                        <a href={service.link}>{service.name}</a>
-                      </MenuItem>
-                    ))}
-                  </MenuList>
-                </ClickAwayListener>
-              </Paper>
-            </Grow>
-          )}
-        </Popper>
-      </div>
-      {/*Store Button*/}
-      <div>
-        <Button
-          ref={anchorRef}
-          color="inherit"
-          aria-controls={open ? "menu-list-grow" : undefined}
-          aria-haspopup="true"
-          onClick={handleToggle}
-        >
-          Store
-        </Button>
-        <Popper
-          open={open}
-          anchorEl={anchorRef.current}
-          role={undefined}
-          transition
-          disablePortal
-        >
-          {({ TransitionProps, placement }) => (
-            <Grow
-              {...TransitionProps}
-              style={{
-                transformOrigin:
-                  placement === "bottom" ? "center top" : "center bottom"
-              }}
-            >
-              <Paper>
-                <ClickAwayListener onClickAway={handleClose}>
-                  <MenuList
-                    autoFocusItem={open}
-                    id="menu-list-grow"
-                    onKeyDown={handleListKeyDown}
-                  >
-                    {itemLinks.map(item => (
-                      <MenuItem onClick={handleClose} key={item.name}>
-                        <a href={item.link}>{item.name}</a>
-                      </MenuItem>
-                    ))}
-                  </MenuList>
-                </ClickAwayListener>
-              </Paper>
-            </Grow>
-          )}
-        </Popper>
-      </div>
-      {/*Page Nav Links*/}
+      <ServicesButton />
+      <StoreButton />
       <div>
         {menuLinks.map(link => (
           <Link key={link.name} to={link.link}>
@@ -194,14 +99,6 @@ export default props => (
         site {
           siteMetadata {
             menuLinks {
-              name
-              link
-            }
-            serviceLinks {
-              name
-              link
-            }
-            itemLinks {
               name
               link
             }

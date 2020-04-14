@@ -55,12 +55,72 @@ module.exports = {
     ],
     itemLinks: [
       {
-        name: "View All Items",
+        name: "View All Health & Wellness Products",
         link: "/products/items/"
       },
       {
+        name: "Neuro-Pro 250",
+        link: "/products/items/np_250"
+      },
+      {
+        name: "Neuro-Pro 500",
+        link: "/products/items/np_500"
+      },
+      {
+        name: "Neuro-Pro 1000",
+        link: "/products/items/np_1000"
+      },
+      {
+        name: "Neuro-Pro 3000",
+        link: "/products/items/np_3000"
+      },
+      {
+        name: "Neuro-Pro 6000",
+        link: "/products/items/np_6000"
+      },
+      {
+        name: "Neuro-Pro Gold Capsules (30 ct)",
+        link: "/products/items/np_cap_gold"
+      },
+      {
+        name: "Neuro-Pro Platinum Capsules (30 ct)",
+        link: "/products/items/np_cap_plat"
+      },
+      {
+        name: "Neuro-Pro Night Capsules (30 ct)",
+        link: "/products/items/np_cap_night"
+      },
+      {
+        name: "Neuro-Pro CoCo 500",
+        link: "/products/items/np_coco_500"
+      },
+      {
+        name: "Neuro-Pro CoCo 1000",
+        link: "/products/items/np_coco_1000"
+      },
+      {
         name: "Bath Bombs",
-        link: "/products/items/bath_bomb_150"
+        link: "/products/items/bath_bombs"
+      },
+      {
+        name: "Neuro-Pro Massage Lotion 1000",
+        link: "/products/items/np_lotion_1000"
+      },
+      {
+        name: "Neuro-Pro Massage Oil 1000",
+        link: "/products/items/np_massage_oil_1000"
+      },
+      {
+        name: "Neuro-Pro Pet 500",
+        link: "/products/items/np_pet_500"
+      },
+      {
+        name: "Neuro-Pro Pet 1000",
+        link: "/products/items/np_pet_1000"
+      },
+      {
+        name: "Neuro-Pro Farm",
+        link: "/products/items/np_pet_farm"
       }
     ]
   },
