@@ -1,17 +1,13 @@
 import withRoot from "../utils/withRoot";
 import React from "react";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import PropTypes from "prop-types";
 import SEO from "../components/SEO";
 import Card from "../components/Card";
 import Page from "../components/Page";
 import ServiceCarousel from "../components/ServiceCarousel";
 import ItemsCarousel from "../components/ItemsCarousel";
-import Carousel from "../components/Carousel";
-import Avatar from "@material-ui/core/Avatar";
-import Button from "@material-ui/core/Button";
 import withStyles from "@material-ui/styles/withStyles";
-import { Gift } from "mdi-material-ui";
 import bellBanner from "./images/bell_logo_dark_banner.jpg";
 
 const styles = theme => ({
@@ -20,7 +16,6 @@ const styles = theme => ({
     }
   }),
   Home = props => {
-    const products = props.data.allMarkdownRemark.edges;
     return (
       <Page avatar={bellBanner}>
         <SEO title="Home">
