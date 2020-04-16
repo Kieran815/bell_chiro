@@ -11,6 +11,7 @@ const styles = theme => ({
     marginBottom: theme.spacing(3)
   },
   footer: {
+    color: "#eee",
     marginBottom: theme.spacing(3),
     whiteSpace: "nowrap"
   }
@@ -34,21 +35,24 @@ const Footer = withStyles(styles)(props => {
       <footer className={classes.footer} id="footer">
         <span>
           <Typography variant="caption" component="span">
-            ©{new Date().getFullYear()} {title}{" "}
-            <Hidden only={["xs", "sm"]}>–</Hidden>
-            <br />
+            ©{new Date().getFullYear()} {title} <br />
             <a
               href="https://www.google.com/maps/place/Bell+Chiropractic+%26+Pain+Management/@38.7936075,-90.328719,16z/data=!4m5!3m4!1s0x0:0x84d05d5cb60a30ee!8m2!3d38.7942955!4d-90.3281231"
+              style={{ color: "white" }}
               target="_blank"
               rel="noopener noreferrer"
             >
               493 RUE ST. FRANCOIS Ste #1A
+            </a>{" "}
+            |{" "}
+            <a href={"mailto:" + email} style={{ color: "white" }}>
+              {email}
+            </a>{" "}
+            |
+            <a href={"tel:" + phone} style={{ color: "white" }}>
+              {" "}
+              {phone}
             </a>
-            <Hidden only={["xl", "lg", "md"]}>
-              <br />
-            </Hidden>{" "}
-            <a href={"mailto:" + email}>{email}</a> –{" "}
-            <a href={"tel:" + phone}>{phone}</a>
           </Typography>
         </span>
       </footer>

@@ -1,10 +1,16 @@
 body
   max-width 100vw
-  // Baseline Material-UI font treatment. We define it here as well,
-  // because we otherwise get FOUT when hard-refreshing a page with
-  // markdown->html set via `dangerouslySetInnerHtml` (e.g., one of the
-  // product or team pages.
+  // Baseline Material-UI font treatment. We define it here as well, because we otherwise get FOUT when hard-refreshing a page with  markdown->html set via `dangerouslySetInnerHtml` (e.g., one of the product or team pages.
+
   color #0782c8
+  background-image url("../pages/images/bell_background.jpeg")
+  width: 100%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-color #000
   font-size 0.875rem
   font-family "Roboto", "Helvetica", "Arial", sans-serif
   font-weight 400
@@ -12,19 +18,26 @@ body
   letter-spacing: 0.01071em
   #logo
     background-color #eee
+    color #0782c8
     &:hover
-      background-color #eee
-    #logoIcon
-      background-color #0782c8
-      color #fff
+      a
+        color #0782c8
+      background-color #69da3e
+      #logoIcon
+          color #0782c8
 
+    #logoIcon
+      color #69da3e
   a
     text-decoration none
     color #0782c8
+    &:hover
+      color #69da3e
 
   button
     a
       color #0782c8
-
+    &:hover
+      color #69da3e
   footer
     text-align center

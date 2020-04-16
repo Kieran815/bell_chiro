@@ -1,28 +1,26 @@
 // See https://github.com/mui-org/material-ui/tree/master/examples/gatsby
 import { SheetsRegistry } from "jss";
 import { createMuiTheme } from "@material-ui/core/styles";
-import { createGenerateClassName } from '@material-ui/styles';
-import purple from "@material-ui/core/colors/purple";
-import green from "@material-ui/core/colors/green";
+import { createGenerateClassName } from "@material-ui/styles";
 
 // A theme with custom primary and secondary color.
 // It's optional.
 const theme = createMuiTheme({
   palette: {
     primary: {
-      light: purple[300],
-      main: purple[500],
-      dark: purple[700],
+      light: "#83c1e4",
+      main: "#0782c8",
+      dark: "#04517d"
     },
     secondary: {
-      light: green[300],
-      main: green[500],
-      dark: green[700],
-    },
+      light: "#69da3e",
+      main: "#69da3e",
+      dark: "#69da3e"
+    }
   },
   typography: {
-    useNextVariants: true,
-  },
+    useNextVariants: true
+  }
 });
 
 function createPageContext() {
@@ -33,7 +31,7 @@ function createPageContext() {
     // This is needed in order to inject the critical CSS.
     sheetsRegistry: new SheetsRegistry(),
     // The standard class name generator.
-    generateClassName: createGenerateClassName(),
+    generateClassName: createGenerateClassName()
   };
 }
 

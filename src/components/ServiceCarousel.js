@@ -6,8 +6,16 @@ import Card from "../components/Card";
 import Button from "@material-ui/core/Button";
 import Carousel from "../components/Carousel";
 import Avatar from "@material-ui/core/Avatar";
-import { Gift } from "mdi-material-ui";
+import AirlineSeatFlatAngledIcon from "@material-ui/icons/AirlineSeatFlatAngled";
 import withStyles from "@material-ui/styles/withStyles";
+import { makeStyles } from "@material-ui/core/styles";
+
+const useStyles = makeStyles({
+  iconChip: {
+    color: "secondary",
+    backgroundColor: "primary"
+  }
+});
 
 const styles = theme => ({
     root: {
@@ -51,12 +59,13 @@ const styles = theme => ({
           <Card
             title="Our Services"
             avatar={
-              <Avatar>
-                <Gift />
+              <Avatar className={useStyles.iconChip}>
+                <AirlineSeatFlatAngledIcon color="secondary" />
               </Avatar>
             }
             action={
               <Button
+                color="primary"
                 variant="contained"
                 component={Link}
                 to="/products/services/"

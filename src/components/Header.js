@@ -10,7 +10,7 @@ import AppBar from "@material-ui/core/AppBar";
 import Typography from "@material-ui/core/Typography";
 import Chip from "@material-ui/core/Chip";
 import Avatar from "@material-ui/core/Avatar";
-import { MaterialUi } from "mdi-material-ui";
+import LocalHospitalIcon from "@material-ui/icons/LocalHospital";
 
 const Header = props => {
   return (
@@ -26,11 +26,7 @@ const Header = props => {
             <Chip
               id="logo"
               variant="outlined"
-              avatar={
-                <Avatar id="logoIcon">
-                  <MaterialUi />
-                </Avatar>
-              }
+              avatar={<LocalHospitalIcon id="logoIcon" />}
               label={<Link to="/">{props.data.site.siteMetadata.title}</Link>}
             />
           </Grid>

@@ -2,7 +2,7 @@
 path: "/products/services/telemedicine"
 title: "Telemedicine"
 date: 2020-04-07T13:24:42
-image: "./paul-gaudriault-661082-unsplash.jpg"
+image: "./telemedicine.webp"
 ---
 
 ## Speaking with a Medical Professional has Never been So Easy

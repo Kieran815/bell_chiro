@@ -5,18 +5,19 @@ date: 2020-04-07T15:43:42
 image: "./test_scrab.jpg"
 ---
 
+<u></u>
+
 <div id="top" style="text-align: center;">
 <p style="text-align: left;">Low Testosterone can occur at any point in a man’s life. Yet, the older he becomes, the more likely he is to experience it. Find out everything you need to know about Low T, including the symptoms, causes, effects and treatment here.</p>
 <div style="display: inline-block">
 <nav style="display: flex; flex-direction: column; background-color: #0782c8; padding: 0.5em; text-align: center; max-width: 50vw;">
-  <u>Table of Contents:</u>
-  <a style="color: black; padding: 0.25em" href="#What is Testosterone">What is Testosterone?</a>
-  <a style="color: black; padding: 0.25em" href="#Low Testosterone in Men">Low Testosterone in Men</a>
-  <a style="color: black; padding: 0.25em" href="#signs">Signs & Symptoms</a>
-  <a style="color: black; padding: 0.25em" href="#causes">Causes of Low Testosterone</a>
-  <a style="color: black; padding: 0.25em" href="#effects">Health Effects of Low Testosterone</a>
-  <a style="color: black; padding: 0.25em" href="#trt">Testosterone Replacement Therapy</a>
-  <a style="color: black;" href="#faq">FAQ's</a>
+  <a style="color:white; padding: 0.25em" href="#What is Testosterone"><u>What is Testosterone?</u></a>
+  <a style="color:white; padding: 0.25em" href="#Low Testosterone in Men"><u>Low Testosterone in Men</u></a>
+  <a style="color:white; padding: 0.25em" href="#signs"><u>Signs & Symptoms</u></a>
+  <a style="color:white; padding: 0.25em" href="#causes"><u>Causes</u></a>
+  <a style="color:white; padding: 0.25em" href="#effects"><u>Health Effects of Low Testosterone</u></a>
+  <a style="color:white; padding: 0.25em" href="#trt"><u>Testosterone Replacement Therapy</u></a>
+  <a style="color:white;" href="#faq"><u>FAQ's</u></a>
 </nav>
 </div>
 </div>

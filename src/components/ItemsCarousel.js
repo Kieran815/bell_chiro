@@ -57,6 +57,7 @@ const styles = theme => ({
             }
             action={
               <Button
+                color="primary"
                 variant="contained"
                 component={Link}
                 to="/products/items/"

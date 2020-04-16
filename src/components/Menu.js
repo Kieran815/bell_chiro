@@ -49,10 +49,9 @@ const Menu = withStyles(styles)(props => {
           href="https://www.facebook.com/BellChiroStL/"
           target="_blank"
           rel="noopener noreferrer"
-          style={{ color: "white" }}
         >
           <IconButton>
-            <Facebook />
+            <Facebook style={{ color: "white" }} />
           </IconButton>
         </a>
       </div>

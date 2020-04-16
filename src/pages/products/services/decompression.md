@@ -5,6 +5,13 @@ date: 2020-04-08T13:08:42
 image: "./adjustment.png"
 ---
 
+<div id="top" style="text-align: center; padding-top: 3em">
+<nav style="display: flex; flex-direction: column;; background-color: #0782c8; padding: 0.5em; align-items: "center"; max-width: 50vw;">
+<a style="color:white; padding: 0.25em" href="#spinal_stenosis"><u>Spinal Stenosis</u></a>
+<a style="color:white; padding: 0.25em" href="#FAQ's"><u>Frequently Asked Questions</u></a>
+</nav>
+</div>
+
 ## CERVICAL AND LUMBAR DECOMPRESSION
 
 Spinal Decompression is a revolutionary new procedure for back pain sufferers! It is comfortable, effective, affordable and even a safe alternative to surgery for many patients. Our revolutionary Spinal Decompression Table effectively treats Herniated Discs, Bulging Discs, Sciatica (Leg Pain), and Degenerated Discs & More!
@@ -16,6 +23,10 @@ We treat low back pain, neck pain, sciatica, herniated discs, degenerative or bu
 Call us to schedule a complimentary consultation to determine if you are a candidate for Spinal Decompression and our multi-step Protocol. The doctor will ask you a series of questions such as “Where is the pain, when did it begin, what makes it better or worse?” Then a thorough examination will be performed in which case the doctor will check your reflexes, blood pressure, balance, gait, skin sensory changes, muscle strength, and more to determine the cause of your back or neck pain. At this point the doctor may recommend x-rays or an MRI if he feels like further imaging will be necessary to determine the exact cause. After combining all of this information together the doctor will determine if you will make a good candidate for spinal decompression therapy and our multi-step Protocol. If you do qualify for care, your Doctor will explain their recommended plan of action for you. If for some reason you do not qualify for care the doctor will refer you to someone who may better suit your needs.
 
 The information on this site has not been evaluated by the FDA.
+
+<div id="spinal_stenosis">
+<br/>
+<br/>
 
 ## Spinal Stenosis
 
@@ -42,6 +53,13 @@ The risk of developing Spinal Stenosis increases in those who:
   - Trauma
   - Previous surgery
   - Spinal tumors (rare)
+
+<br/>
+<a href="#top">Back to Top</a>
+</div>
+<div id="FAQ's">
+<br/>
+<br/>
 
 ## Frequently Asked Questions:
 
@@ -76,3 +94,7 @@ The risk of developing Spinal Stenosis increases in those who:
 - **Is it true that Professional Athletes, Celebrities and Patients in their 90s have turned to Spinal Decompression and Cold Laser Therapy as a Successful, non-surgical option to Neck and Back Pain WITHOUT the use of drugs, pills and surgery?**
 
   Yes! Professional athletes, celebrities and even patients in their 90s are turning to spinal decompression and cold laser therapy as an affordable, non-surgical alternative to neck and back pain without the use of drugs, pills and surgery. People are tired of taking pills that simply mask the pain and can cause all kinds of serious side effects. People are frustrated with getting shots that work the first time or two and then eventually have minimal or no effect. And people are scared to death of surgery as they have seen firsthand as their friends and relatives who spent 1,000s of dollars, had weeks of “down time”, have scars, and risked serious side effects and still ended up with a “failed back surgery syndrome”. New non-surgical spinal decompression is not only effective and affordable but is also non-invasive and safe.
+
+<br/>
+<a href="#top">Back to Top</a>
+</div>
