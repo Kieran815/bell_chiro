@@ -7,7 +7,8 @@ import "../css/style.styl";
 
 const styles = {
   container: {
-    marginTop: 94
+    marginTop: 94,
+    backgroundColor: "#2b3940"
   },
   contentBox: {
     maxWidth: "calc(1136px - 60px)",
@@ -22,7 +23,7 @@ class Page extends React.Component {
   render() {
     const { classes, title, avatar, children } = this.props;
     return (
-      <>
+      <div>
         <Header />
         <Grid
           className={classes.container}
@@ -41,7 +42,7 @@ class Page extends React.Component {
             <Footer />
           </Grid>
         </Grid>
-      </>
+      </div>
     );
   }
 }

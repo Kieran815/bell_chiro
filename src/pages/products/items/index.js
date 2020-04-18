@@ -4,13 +4,16 @@ import { graphql } from "gatsby";
 import SEO from "../../../components/SEO";
 import Page from "../../../components/Page";
 import List from "../../../components/List";
+import Card from "../../../components/Card";
 
 const Products = props => {
   const items = props.data.allMarkdownRemark.edges;
   return (
-    <Page title="Health & Wellness Products">
+    <Page>
       <SEO title="Health & Wellness Products" />
-      <List items={items} />
+      <Card title="Health & Wellness Products">
+        <List items={items} />
+      </Card>
     </Page>
   );
 };

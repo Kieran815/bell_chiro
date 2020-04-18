@@ -67,8 +67,16 @@ module.exports = {
         link: "/products/items/np_500"
       },
       {
+        name: "Neuro-Pro CoCo 500",
+        link: "/products/items/np_coco_500"
+      },
+      {
         name: "Neuro-Pro 1000",
         link: "/products/items/np_1000"
+      },
+      {
+        name: "Neuro-Pro CoCo 1000",
+        link: "/products/items/np_coco_1000"
       },
       {
         name: "Neuro-Pro 3000",
@@ -89,14 +97,6 @@ module.exports = {
       {
         name: "Neuro-Pro Night Capsules (30 ct)",
         link: "/products/items/np_cap_night"
-      },
-      {
-        name: "Neuro-Pro CoCo 500",
-        link: "/products/items/np_coco_500"
-      },
-      {
-        name: "Neuro-Pro CoCo 1000",
-        link: "/products/items/np_coco_1000"
       },
       {
         name: "Bath Bombs",

@@ -15,15 +15,18 @@ import ItemsCarousel from "../components/ItemsCarousel";
 import withStyles from "@material-ui/styles/withStyles";
 import { makeStyles } from "@material-ui/core/styles";
 // logo banner
-import bellLogo from "./images/bell_logo_light.jpg";
-import "../css/pagesIndex.css";
+import bellLogo from "./images/bell_logo_dark.jpg";
 import LocalHospitalOutlinedIcon from "@material-ui/icons/LocalHospitalOutlined";
 import PhoneAndroidIcon from "@material-ui/icons/PhoneAndroid";
 import QueryBuilderIcon from "@material-ui/icons/QueryBuilder";
+import DirectionsCarIcon from "@material-ui/icons/DirectionsCar";
+
+
+
 
 const useStyles = makeStyles({
   media: {
-    minWidth: "35vw",
+    minWidth: "100%",
     minHeight: "50vh",
     marginBottom: "3em"
   }
@@ -31,7 +34,8 @@ const useStyles = makeStyles({
 
 const styles = theme => ({
     root: {
-      fontWeight: "bold"
+      fontWeight: "bold",
+      backgroundColor: "#2b3940"
     }
   }),
   Home = props => {
@@ -90,21 +94,26 @@ const styles = theme => ({
                     <a href="tel:314-838-1983">(314) 838-1983</a>
                   </CardContent>
                 </Paper>
-                <Card>
-                  <CardHeader title="Come Visit Us!" />
-                  <iframe
-                    title="Google_Map_Pin"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3109.6657840999337!2d-90.33031178255611!3d38.794295500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87df3747c061b7e3%3A0x84d05d5cb60a30ee!2sBell%20Chiropractic%20%26%20Pain%20Management!5e0!3m2!1sen!2sus!4v1586537886759!5m2!1sen!2sus"
-                    width="auto"
-                    height="auto"
-                    frameBorder="0"
-                    style={{
-                      border: "1px solid #0782c8"
-                    }}
-                    allowFullScreen=""
-                    aria-hidden="false"
-                  ></iframe>
-                </Card>
+                <Paper>
+                  <CardContent>
+                    <div style={{ display: "flex", alignItems: "center" }}>
+                      <DirectionsCarIcon />
+                      <CardHeader title="Come Visit Us!" />
+                    </div>
+                    <iframe
+                      title="Google_Map_Pin"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3109.6657840999337!2d-90.33031178255611!3d38.794295500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87df3747c061b7e3%3A0x84d05d5cb60a30ee!2sBell%20Chiropractic%20%26%20Pain%20Management!5e0!3m2!1sen!2sus!4v1586537886759!5m2!1sen!2sus"
+                      width="auto"
+                      height="auto"
+                      frameBorder="0"
+                      style={{
+                        border: "1px solid #0782c8"
+                      }}
+                      allowFullScreen=""
+                      aria-hidden="false"
+                    ></iframe>
+                  </CardContent>
+                </Paper>
                 <Paper>
                   <CardContent>
                     <div style={{ display: "flex", alignItems: "center" }}>

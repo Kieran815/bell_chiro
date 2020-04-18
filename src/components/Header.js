@@ -9,7 +9,6 @@ import Toolbar from "@material-ui/core/Toolbar";
 import AppBar from "@material-ui/core/AppBar";
 import Typography from "@material-ui/core/Typography";
 import Chip from "@material-ui/core/Chip";
-import Avatar from "@material-ui/core/Avatar";
 import LocalHospitalIcon from "@material-ui/icons/LocalHospital";
 
 const Header = props => {

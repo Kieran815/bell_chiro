@@ -1,7 +1,7 @@
 ---
 path: "/products/items/np_coco_1000"
 title: "Neuro-Pro CoCo 1000"
-date: 2020-04-13T11:37:42
+date: 2020-04-14T11:36:43
 image: "./np_coco_1000.webp"
 ---
 
