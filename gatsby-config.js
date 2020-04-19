@@ -34,7 +34,7 @@ module.exports = {
         link: "/products/services/accident"
       },
       {
-        name: "Medical Marijuana Certification",
+        name: "Medical Certification",
         link: "/products/services/med_cert_eval"
       },
 
