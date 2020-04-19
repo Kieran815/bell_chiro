@@ -10,6 +10,10 @@ module.exports = {
       {
         name: "About",
         link: "/team"
+      },
+      {
+        name: "Form",
+        link: "/Patient_Form"
       }
     ],
     serviceLinks: [
