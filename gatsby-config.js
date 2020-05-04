@@ -16,6 +16,24 @@ module.exports = {
         link: "/Patient_Form"
       }
     ],
+    mobileMenuLinks: [
+      {
+        name: "Services",
+        link: "/products/services"
+      },
+      {
+        name: "Shop",
+        link: "/products/items"
+      },
+      {
+        name: "Meet Our Team",
+        link: "/team"
+      },
+      {
+        name: "Schedule an Appointment",
+        link: "/Patient_Form"
+      }
+    ],
     serviceLinks: [
       {
         name: "View All Services",

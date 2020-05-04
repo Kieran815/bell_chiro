@@ -1,13 +1,15 @@
 import React, { Component } from "react";
-
 import PatientContactInfo from "./PatientContactInfo";
 import EmergencyContact from "./EmergencyContact";
 import BasicMedicalInfo from "./BasicMedicalInfo";
 import CalendarSheet from "./CalendarSheet";
+import Confirmation from "./Confirmation";
+
 export class Form extends Component {
   state = {
     step: 1,
     service: "",
+    apptDate: "",
     cost: "75.00",
     firstName: "",
     lastName: "",
@@ -49,14 +51,25 @@ export class Form extends Component {
     console.log(this.state[input])
   };
 
+  updateCondition = input => e => {
+    this.setState({conditions: [...this.state.conditions, e.target.value]})
+  }
 
   render() {
 
     const { step } = this.state;
 
-    const { service, cost, name, email, phone, address, city, state, zip, country, dob, marital, iceFirstName, iceLastName, icePhone, iceRelationship, conditions, takingMeds, perscriptions, knownAllergies, ailments, comments } = this.state;
+    const { service, apptDate, cost, firstName, lastName, dob, email, phone, address, city, state, zip, country, marital, iceFirstName, iceLastName, icePhone, iceRelationship, conditions, takingMeds, perscriptions, knownAllergies, ailments, comments } = this.state;
 
-    const values = { service, cost, name, email, phone, address, city, state, zip, country, dob, marital, iceFirstName, iceLastName, icePhone, iceRelationship, conditions, takingMeds, perscriptions, knownAllergies, ailments, comments };
+    const values = { service, apptDate, cost, firstName, lastName, dob, email, phone, address, city, state, zip, country, marital, iceFirstName, iceLastName, icePhone, iceRelationship, conditions, takingMeds, perscriptions, knownAllergies, ailments, comments };
+
+    const formStyle = {
+      body: {
+        input: {
+          width: "25vw"
+        }
+      }
+    }
 
     switch(step) {
       case 1:
@@ -65,6 +78,7 @@ export class Form extends Component {
             nextStep={this.nextStep}
             inputChange={this.inputChange}
             values={values}
+            style={formStyle}
           />
         );
       case 2:
@@ -81,6 +95,7 @@ export class Form extends Component {
             <BasicMedicalInfo
               nextStep={this.nextStep}
               prevStep={this.prevStep}
+              updateCondition={this.updateCondition}
               inputChange={this.inputChange}
               values={values}
             />
@@ -94,9 +109,17 @@ export class Form extends Component {
               values={values}
             />
           )
+        case 5:
+          return(
+            <Confirmation
+              nextStep={this.nextStep}
+              prevStep={this.prevStep}
+              values={values}
+            />
+          )
         default:
           return (
-            <div>Hello!!!</div>
+            <div>Confirmed</div>
           )
     }
 

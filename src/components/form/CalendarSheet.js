@@ -1,29 +1,55 @@
-import React, { useState } from 'react';
+import React, { Component } from 'react';
 import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
 import Button from "@material-ui/core/Button";
-import Card from '../Card';
 
+class CalendarSheet extends Component {
 
+  continue = e => {
+    e.preventDefault();
+    this.props.nextStep();
+  }
 
+  back = e => {
+    e.preventDefault();
+    this.props.prevStep();
+  }
 
-const CalendarSheet = (props) => {
-  const [date, setDate] = useState(new Date());
+  render() {
 
-  const onChange = date => {
-    setDate(date);
-  };
-  return(
-    <>
-      <Calendar
-        calendarType="US"
-        onChange={onChange}
-        value={date}
-        minDate={new Date()}
-        maxDate={new Date(Date.now() + 7.884e9)}
-      />
-      {date.toString()}
-    </>
-  );
+    const  { values, inputChange, formStyle } = this.props;
+
+    return(
+      <div>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+        <Calendar
+          calendarType="US"
+          onChange={inputChange("apptDate")}
+          value={values.apptDate}
+          minDate={new Date()}
+          maxDate={new Date(Date.now() + 7.884e9)}
+        />
+        </div>
+        <div style={{ display: 'flex', justifyContent: "space-around" }}>
+          <Button
+            variant="contained"
+            color="primary"
+            onClick={this.back}
+          >
+            Back
+          </Button>
+          <Button
+            variant="contained"
+            color="primary"
+            onClick={this.continue}
+          >
+            Continue
+          </Button>
+        </div>
+      </div>
+    );
+  }
+
 };
 
 export default CalendarSheet;

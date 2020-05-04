@@ -134,7 +134,7 @@ const styles = theme => ({
               variant="contained"
               component={Link}
               color="primary"
-              href="#contained-buttons"
+              href="/Patient_Form"
               style={{ width: "100%", marginRight: "auto", marginLeft: "auto" }}
             >
               Schedule an Appointment

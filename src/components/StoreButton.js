@@ -63,6 +63,7 @@ const StoreButton = props => {
         open={open}
         anchorEl={anchorRef.current}
         role={undefined}
+        style={{ zIndex: "10"}}
         transition
         disablePortal
       >
