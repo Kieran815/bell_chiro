@@ -13,17 +13,6 @@ const styles = theme => ({
   }
 });
 
-// keeping in for later styling via css in js
-// const useStyles = makeStyles(theme => ({
-//   root: {
-//     display: "flex",
-//     backgroundColor: "#0782c8"
-//   },
-//   paper: {
-//     marginRight: theme.spacing(2)
-//   }
-// }));
-
 const Menu = withStyles(styles)(props => {
   const {
     classes,

@@ -18,7 +18,6 @@ const Header = props => {
         <Grid
           container
           justify="space-between"
-          alignItems="center"
           padding="theme.spacing(16)"
         >
           <Grid item>

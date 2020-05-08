@@ -8,6 +8,8 @@ import Popper from "@material-ui/core/Popper";
 import MenuItem from "@material-ui/core/MenuItem";
 import MenuList from "@material-ui/core/MenuList";
 
+const ITEM_HEIGHT = "50vh";
+
 const StoreButton = props => {
   const [open, setOpen] = React.useState(false);
   const anchorRef = React.useRef(null);
@@ -72,7 +74,7 @@ const StoreButton = props => {
             {...TransitionProps}
             style={{
               transformOrigin:
-                placement === "bottom" ? "center top" : "center bottom"
+                placement === "top" ? "center top" : "center bottom"
             }}
           >
             <Paper>
@@ -80,6 +82,11 @@ const StoreButton = props => {
                 <MenuList
                   autoFocusItem={open}
                   id="menu-list-grow"
+                  PaperProps={{
+                    style: {
+                      maxHeight: ITEM_HEIGHT
+                    }
+                  }}
                   onKeyDown={handleListKeyDown}
                 >
                   {itemLinks.map(item => (

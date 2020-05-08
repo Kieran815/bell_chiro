@@ -6,7 +6,7 @@ import Card from "../components/Card";
 import Button from "@material-ui/core/Button";
 import Carousel from "../components/Carousel";
 import Avatar from "@material-ui/core/Avatar";
-import AirlineSeatFlatAngledIcon from "@material-ui/icons/AirlineSeatFlatAngled";
+import AirlineSeatFlatOutlinedIcon from '@material-ui/icons/AirlineSeatFlatOutlined';
 import withStyles from "@material-ui/styles/withStyles";
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -60,7 +60,7 @@ const styles = theme => ({
             title="Our Services"
             avatar={
               <Avatar className={useStyles.iconChip}>
-                <AirlineSeatFlatAngledIcon color="secondary" />
+                <AirlineSeatFlatOutlinedIcon color="primary" fontSize="large" />
               </Avatar>
             }
             action={

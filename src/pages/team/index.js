@@ -3,6 +3,8 @@ import React from "react";
 import { Link, graphql, withPrefix } from "gatsby";
 import Typography from "@material-ui/core/Typography";
 import Card from "@material-ui/core/Card";
+import CardHeader from "@material-ui/core/CardHeader";
+import CardContent from "@material-ui/core/CardContent";
 import SEO from "../../components/SEO";
 import Page from "../../components/Page";
 import GridList from "@material-ui/core/GridList";
@@ -10,22 +12,31 @@ import GridListTile from "@material-ui/core/GridListTile";
 import GridListTileBar from "@material-ui/core/GridListTileBar";
 import IconButton from "@material-ui/core/IconButton";
 import { Rocket } from "mdi-material-ui";
+import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
 
 const Team = props => {
   const teams = props.data.allMarkdownRemark.edges;
   return (
-    <Page title="Meet the Team">
+    <Page>
       <SEO title="Meet the Team" />
       <Card>
+        <div style={{ display: "flex"}}>
+        <IconButton>
+          <AssignmentIndIcon />
+        </IconButton>
+        <CardHeader
+          title="Meet the Team"
+        />
+        </div>
         <Typography paragraph>
-          <p>
+          <CardContent>
             Some text about how great yall are and some other shit about your
             call to action or whatever you want to do to introduce yourselves to
             potential clients or people who don't know you or haven't done
             business with you or whatever I'm still typing because fake
             paragraph to play with font spacing in mobile vs tablet vs laptop vs
             desktop.
-          </p>
+          </CardContent>
         </Typography>
 
         <GridList cellHeight={500} cols={3}>
