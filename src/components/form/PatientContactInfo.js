@@ -73,7 +73,7 @@ export class PatientContactInfo extends Component {
             <input type="text" className="form-control" name="zip" onChange={inputChange("zip")} value={values.zip} maxLength="5" pattern="[0-9]{5}" required />
           </div>
         </div>
-        <div style={{ display: 'flex', justifyContent: "flex-end" }}>
+        <div style={{ display: 'flex', justifyContent: "center" }}>
           <Button
             variant="contained"
             color="primary"

@@ -20,7 +20,7 @@ class BasicMedicalInfo extends Component {
     return(
       <div className="form-container" title="Patient Registration" style={{display: "center"}}>
       <h2 style={{ textAlign: 'center' }}>Patient Registration Form</h2>
-        <h3>Basic Medical Information (Continued)</h3>
+        <h3>Basic Medical Information</h3>
   {/*begin Conditions Radio Buttons*/}
         <div className="form-group" >
           <h3>Conditions:</h3>
@@ -74,15 +74,10 @@ class BasicMedicalInfo extends Component {
               <input type="checkbox" id="other_condition" name="conditions" value="Chronic Debilitating or Other Medical Condition" />
               <label id="other_condition" htmlFor="other_condition"> Chronic Debilitating or Other Medical Condition </label>
             </span>
-            
+
           </form>
         </div>
-
-
-
-
-
-        <div style={{ display: 'flex', justifyContent: "space-between" }}>
+        <div style={{ display: 'flex', justifyContent: "space-around" }}>
           <Button
             variant="contained"
             color="primary"

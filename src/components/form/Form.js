@@ -117,14 +117,19 @@ export class Form extends Component {
               values={values}
             />
           )
-        default:
+        case 6:
           return (
             <div>Confirmed</div>
           )
+        default:
+          return (
+            <div>
+              <p>Something went Wrong</p>
+              <a href="/">Back to Home</a>
+            </div>
+          )
     }
-
   }
-
 }
 
 export default Form;

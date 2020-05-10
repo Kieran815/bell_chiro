@@ -40,7 +40,7 @@ class EmergencyContact extends Component {
           <input type="iceRelationship" className="form-control" name="iceRelationship" onChange={inputChange("iceRelationship")} value={values.iceRelationship} required />
           <br/>
         </div>
-        <div style={{ display: 'flex', justifyContent: "space-between" }}>
+        <div style={{ display: 'flex', justifyContent: "space-around" }}>
           <Button
             variant="contained"
             color="primary"
