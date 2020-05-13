@@ -10,7 +10,7 @@ export class PatientContactInfo extends Component {
 
   render() {
 
-    const { values, inputChange, formStyle } = this.props;
+    const { values, inputChange } = this.props;
 
     return(
       <div className="form-container" title="Patient Registration">
@@ -20,17 +20,17 @@ export class PatientContactInfo extends Component {
         <div className="form-group" style={{ display: "flex", flexDirection: "column", size: "50" }}>
           {/* FirstName */}
           <label htmlFor="firstName">First Name: </label>
-          <input type="text" className="form-control" name="firstName" onChange={inputChange('firstName')} value={values.firstName} required />
+          <input type="text" className="form-control" name="firstName" onChange={inputChange('firstName')} value={values.firstName} />
           {/* LastName */}
           <label htmlFor="lastName">Last Name: </label>
-          <input type="text" className="form-control" name="lastName" onChange={inputChange('lastName')} value={values.lastName} required />
+          <input type="text" className="form-control" name="lastName" onChange={inputChange('lastName')} value={values.lastName} />
           {/* dob */}
           <label htmlFor="dob">Date of Birth: </label>
-          <input type="date" className="form-control" name="dob" onChange={inputChange("dob")} value={values.dob} placeholder="mm/dd/yyyy" required />
+          <input type="date" className="form-control" name="dob" onChange={inputChange("dob")} value={values.dob} placeholder="mm/dd/yyyy" />
           {/* Marital Status */}
-          <form onChange={inputChange("marital")} value={values.marital} required>
+          <form onChange={inputChange("marital")} value={values.marital}>
             <p>Marital Status:</p>
-            <input type="radio" id="single" name="marital" value="single" />
+            <input type="radio" id="single" name="marital" value="single" checked />
             <label htmlFor="single">Single</label>
             <input type="radio" id="married" name="marital" value="married" />
             <label htmlFor="married">Married</label>
@@ -73,6 +73,8 @@ export class PatientContactInfo extends Component {
             <input type="text" className="form-control" name="zip" onChange={inputChange("zip")} value={values.zip} maxLength="5" pattern="[0-9]{5}" required />
           </div>
         </div>
+        <br/>
+        <br/>
         <div style={{ display: 'flex', justifyContent: "center" }}>
           <Button
             variant="contained"

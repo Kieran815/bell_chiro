@@ -17,10 +17,11 @@ class CalendarSheet extends Component {
 
   render() {
 
-    const  { values, inputChange, formStyle } = this.props;
+    const  { values, inputChange } = this.props;
 
     return(
       <div>
+        <h2 style={{ textAlign: 'center' }}>Appointment Date</h2>
         <div style={{ display: "flex", justifyContent: "center" }}>
         <Calendar
           calendarType="US"
@@ -30,6 +31,8 @@ class CalendarSheet extends Component {
           maxDate={new Date(Date.now() + 7.884e9)}
         />
         </div>
+        <br/>
+        <br/>
         <div style={{ display: 'flex', justifyContent: "space-around" }}>
           <Button
             variant="contained"

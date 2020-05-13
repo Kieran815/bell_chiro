@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Button from "@material-ui/core/Button";
 
-class BasicMedicalInfo extends Component {
+class Conditions extends Component {
 
   continue = e => {
     e.preventDefault();
@@ -15,7 +15,7 @@ class BasicMedicalInfo extends Component {
 
   render() {
 
-    const { values, inputChange, updateCondition, knownAllergies } = this.props;
+    const { values, updateCondition } = this.props;
 
     return(
       <div className="form-container" title="Patient Registration" style={{display: "center"}}>
@@ -77,6 +77,8 @@ class BasicMedicalInfo extends Component {
 
           </form>
         </div>
+        <br/>
+        <br/>
         <div style={{ display: 'flex', justifyContent: "space-around" }}>
           <Button
             variant="contained"
@@ -98,4 +100,4 @@ class BasicMedicalInfo extends Component {
   }
 }
 
-export default BasicMedicalInfo;
+export default Conditions;

@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import PatientContactInfo from "./PatientContactInfo";
 import EmergencyContact from "./EmergencyContact";
-import BasicMedicalInfo from "./BasicMedicalInfo";
+import Conditions from "./Conditions";
+import Medications from "./Medications";
 import CalendarSheet from "./CalendarSheet";
 import Confirmation from "./Confirmation";
 
@@ -27,7 +28,7 @@ export class Form extends Component {
     icePhone: "",
     iceRelationship: "",
     conditions: "",
-    takingMeds: false,
+    takingMeds: "No",
     perscriptions: "",
     knownAllergies: "",
     ailments: "",
@@ -92,7 +93,7 @@ export class Form extends Component {
         );
         case 3:
           return(
-            <BasicMedicalInfo
+            <Conditions
               nextStep={this.nextStep}
               prevStep={this.prevStep}
               updateCondition={this.updateCondition}
@@ -100,7 +101,16 @@ export class Form extends Component {
               values={values}
             />
           );
-        case 4:
+          case 4:
+            return (
+              <Medications
+                nextStep={this.nextStep}
+                prevStep={this.prevStep}
+                inputChange={this.inputChange}
+                values={values}
+              />
+            )
+        case 5:
           return(
             <CalendarSheet
               nextStep={this.nextStep}
@@ -109,7 +119,7 @@ export class Form extends Component {
               values={values}
             />
           )
-        case 5:
+        case 6:
           return(
             <Confirmation
               nextStep={this.nextStep}
@@ -117,10 +127,7 @@ export class Form extends Component {
               values={values}
             />
           )
-        case 6:
-          return (
-            <div>Confirmed</div>
-          )
+
         default:
           return (
             <div>

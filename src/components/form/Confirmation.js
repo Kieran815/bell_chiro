@@ -23,7 +23,7 @@ class Confirmation extends Component {
       <div>
         <div>
           <h2 style={{ textAlign: 'center' }}>Confirm Your Information</h2>
-          <p style={{ textAlign: 'center' }}><strong>Scheduling {service} ({cost}) appointment on {apptDate}</strong></p>
+          <p style={{ textAlign: 'center' }}><strong>Scheduling {service} (${cost}) appointment on {apptDate}</strong></p>
         </div>
         <div style={{ display: 'flex', justifyContent: "space-around", flexWrap: "wrap"}}>
           <div>
