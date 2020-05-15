@@ -3,6 +3,7 @@ import PatientContactInfo from "./PatientContactInfo";
 import EmergencyContact from "./EmergencyContact";
 import Conditions from "./Conditions";
 import Medications from "./Medications";
+import Symptoms from "./Symptoms";
 import CalendarSheet from "./CalendarSheet";
 import Confirmation from "./Confirmation";
 
@@ -49,7 +50,6 @@ export class Form extends Component {
     this.setState({
       [input]: e.target.value
     });
-    console.log(this.state[input])
   };
 
   updateCondition = input => e => {
@@ -110,7 +110,16 @@ export class Form extends Component {
                 values={values}
               />
             )
-        case 5:
+          case 5:
+            return(
+              <Symptoms
+                nextStep={this.nextStep}
+                prevStep={this.prevStep}
+                inputChange={this.inputChange}
+                values={values}
+              />
+            )
+        case 6:
           return(
             <CalendarSheet
               nextStep={this.nextStep}
@@ -119,21 +128,13 @@ export class Form extends Component {
               values={values}
             />
           )
-        case 6:
+        default:
           return(
             <Confirmation
               nextStep={this.nextStep}
               prevStep={this.prevStep}
               values={values}
             />
-          )
-
-        default:
-          return (
-            <div>
-              <p>Something went Wrong</p>
-              <a href="/">Back to Home</a>
-            </div>
           )
     }
   }

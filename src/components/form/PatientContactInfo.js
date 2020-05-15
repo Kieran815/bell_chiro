@@ -30,7 +30,7 @@ export class PatientContactInfo extends Component {
           {/* Marital Status */}
           <form onChange={inputChange("marital")} value={values.marital}>
             <p>Marital Status:</p>
-            <input type="radio" id="single" name="marital" value="single" checked />
+            <input type="radio" id="single" name="marital" value="single" defaultChecked />
             <label htmlFor="single">Single</label>
             <input type="radio" id="married" name="marital" value="married" />
             <label htmlFor="married">Married</label>
@@ -47,30 +47,35 @@ export class PatientContactInfo extends Component {
 {/*Begin Contact Information*/}
         <div className="form-group" style={{ display: "flex", flexDirection: "column" }}>
           <div className="form-group">
-            <h3>Contact Information</h3>
-            {/* phone */}
-              <label htmlFor="phone">Phone Number: </label>
-              <input type="tel" className="form-control" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" onChange={inputChange("phone")} value={values.phone} required />
-              {/* E-email */}
-              <label htmlFor="email">E-Mail: </label>
-              <input type="email" className="form-control" name="email" onChange={inputChange("email")} value={values.email} palceholder="info@bellchirostl.com" required />
+            <div>
+              <h3>Contact Information</h3>
+              {/* phone */}
+                <label htmlFor="phone">Phone Number: </label>
+                <input type="tel" className="form-control" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" onChange={inputChange("phone")} value={values.phone} required />
+                <br />
+                {/* E-email */}
+                <label htmlFor="email">E-Mail: </label>
+                <input type="email" className="form-control" name="email" onChange={inputChange("email")} value={values.email} palceholder="info@bellchirostl.com" required />
+            </div>
+            <br/>
+            <div>
+              {/* Address */}
+              Address:<br/>
+              <label htmlFor="address">Street:</label>
+              <input type="text" className="form-control" name="address" onChange={inputChange("address")} value={values.address} required />
               <br/>
-            {/* Address */}
-            Address:<br/>
-            <label htmlFor="address">Street:</label>
-            <input type="text" className="form-control" name="address" onChange={inputChange("address")} value={values.address} required />
-            <br/>
-            {/* City */}
-            <label htmlFor="city">City: </label>
-            <input type="text" className="form-control" name="city" onChange={inputChange("city")} value={values.city} required />
-            <br/>
-            {/* State */}
-            <label htmlFor="state">State: </label>
-            <input type="text" className="form-control" name="state" onChange={inputChange("state")} value={values.state} maxLength="2" required />
-            <br/>
-          {/* Zip */}
-            <label htmlFor="zip">Zip Code: </label>
-            <input type="text" className="form-control" name="zip" onChange={inputChange("zip")} value={values.zip} maxLength="5" pattern="[0-9]{5}" required />
+              {/* City */}
+              <label htmlFor="city">City: </label>
+              <input type="text" className="form-control" name="city" onChange={inputChange("city")} value={values.city} required />
+              <br/>
+              {/* State */}
+              <label htmlFor="state">State: </label>
+              <input type="text" className="form-control" name="state" onChange={inputChange("state")} value={values.state} maxLength="2" required />
+              <br/>
+            {/* Zip */}
+              <label htmlFor="zip">Zip Code: </label>
+              <input type="text" className="form-control" name="zip" onChange={inputChange("zip")} value={values.zip} maxLength="5" pattern="[0-9]{5}" required />
+            </div>
           </div>
         </div>
         <br/>

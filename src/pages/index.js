@@ -1,6 +1,6 @@
 import withRoot from "../utils/withRoot";
 import React from "react";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import PropTypes from "prop-types";
 import SEO from "../components/SEO";
 import Button from "@material-ui/core/Button";
@@ -132,7 +132,6 @@ const styles = theme => ({
             </CardContent>
             <Button
               variant="contained"
-              component={Link}
               color="primary"
               href="/Patient_Form"
               style={{ width: "100%", marginRight: "auto", marginLeft: "auto" }}

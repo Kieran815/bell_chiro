@@ -18,7 +18,6 @@ const List = props => {
   const { classes } = props;
   return (
     <Grid
-      spacing={24}
       container
       direction="row"
       alignItems="flex-start"
