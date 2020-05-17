@@ -14,6 +14,10 @@ module.exports = {
       {
         name: "Form",
         link: "/Patient_Form"
+      },
+      {
+        name: "Form2",
+        link: "/Form2"
       }
     ],
     mobileMenuLinks: [
