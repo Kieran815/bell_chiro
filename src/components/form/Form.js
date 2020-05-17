@@ -1,19 +1,4 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-  useLocation
-} from "react-router-dom";
-import {
-  StateMachineProvider,
-  createStore,
-  DevTool
-} from "little-state-machine";
-
-// {/* Form Pages */}
-import Form2 from "./form2.js";
 import PatientContactInfo from "./PatientContactInfo";
 import EmergencyContact from "./EmergencyContact";
 import Conditions from "./Conditions";
@@ -141,15 +126,6 @@ export class Form extends Component {
               prevStep={this.prevStep}
               inputChange={this.inputChange}
               values={values}
-            />
-          )
-        case 7:
-          return(
-            <Form2
-              nextStep={this.nextStep}
-              inputChange={this.inputChange}
-              values={values}
-              style={formStyle}
             />
           )
         default:
