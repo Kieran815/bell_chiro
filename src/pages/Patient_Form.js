@@ -2,14 +2,14 @@ import withRoot from "../utils/withRoot";
 import React from 'react';
 import Page from '../components/Page';
 import Card from '../components/Card';
-import Form from "../components/form/Form";
+import Form2 from "../components/form2/form2";
 
 const PatientForm = props => {
 
   return(
     <Page>
       <Card>
-        <Form />
+        <Form2 />
       </Card>
     </Page>
   );
