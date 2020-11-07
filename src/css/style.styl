@@ -35,3 +35,35 @@ body
       color #69da3e
   footer
     text-align center
+
+.contact-info
+     display flex
+     justify-content space-between
+
+.contact-method
+   text-align center
+   margin 0.5em
+
+   .method-head
+     display flex
+     justify-content flex-start
+     align-items center
+
+@media screen and (max-width: 600px)
+  .contact-info
+    flex-direction column
+    align-items center
+
+  .contact-method
+    min-width 80vw
+    justify-content center
+
+  .method-head
+    display flex
+    align-items center
+
+  .method-card
+    display flex
+    flex-direction column
+    justify-content space-around
+    align-items center

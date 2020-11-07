@@ -8,9 +8,17 @@ image: "./np_pet_500.webp"
 A Propietary Blend of Salmon oil & Hemp oil. Pure, Safe, and Natural. Specifically formulated for larger pets. Apply 1 drop per 20 pounds to your pets food. They LOVE it!
 
 **Price**
-$99.99 Regular Price$49.99Sale Price
+<del>$99.99</del> $49.99 Sale Price
 
-**Quantity**
-1
+**Quantity:**
+<select>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select>
 
-**Add to Cart**
+<button>
+  Add to Cart
+</button>

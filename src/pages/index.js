@@ -20,6 +20,7 @@ import LocalHospitalOutlinedIcon from "@material-ui/icons/LocalHospitalOutlined"
 import PhoneAndroidIcon from "@material-ui/icons/PhoneAndroid";
 import QueryBuilderIcon from "@material-ui/icons/QueryBuilder";
 import DirectionsCarIcon from "@material-ui/icons/DirectionsCar";
+import "../css/style.styl";
 
 
 
@@ -53,6 +54,7 @@ const styles = theme => ({
             <CardMedia
               className={classes.media}
               image={bellLogo}
+              style={{borderRadius: "5px", marginTop: "-2em"}}
               title="Bell Chiropractic & Pain Management"
             />
             <CardHeader
@@ -72,10 +74,10 @@ const styles = theme => ({
               </strong>
             </CardContent>
             <CardContent>
-              <div style={{ display: "flex", justifyContent: "space-around" }}>
-                <Paper>
-                  <CardContent>
-                    <div style={{ display: "flex", alignItems: "center" }}>
+              <div className="contact-info">
+                <Paper  className="contact-method">
+                  <CardContent className="method-card">
+                    <div className="method-head">
                       <LocalHospitalOutlinedIcon fontSize="large" />
                       <h3>Address:</h3>
                     </div>
@@ -87,16 +89,16 @@ const styles = theme => ({
                       493 Rue St Francois #1A
                       <br /> Florissant, MO 63031
                     </a>
-                    <div style={{ display: "flex", alignItems: "center" }}>
+                    <div className="method-head">
                       <PhoneAndroidIcon />
                       <h3>Phone:</h3>
                     </div>
                     <a href="tel:314-838-1983">(314) 838-1983</a>
                   </CardContent>
                 </Paper>
-                <Paper>
-                  <CardContent>
-                    <div style={{ display: "flex", alignItems: "center" }}>
+                <Paper className="contact-method">
+                  <CardContent className="method-card">
+                    <div className="method-head">
                       <DirectionsCarIcon />
                       <CardHeader title="Come Visit Us!" />
                     </div>
@@ -114,9 +116,9 @@ const styles = theme => ({
                     ></iframe>
                   </CardContent>
                 </Paper>
-                <Paper>
-                  <CardContent>
-                    <div style={{ display: "flex", alignItems: "center" }}>
+                <Paper className='contact-method'>
+                  <CardContent className="method-card">
+                    <div className="method-head">
                       <QueryBuilderIcon />
                       <h3>Hours:</h3>
                     </div>

@@ -25,11 +25,27 @@ We found that allowing the oil to soak into your skin when exiting the tub and N
 
 Mint Scented
 
-Price: $25.00 $15.00!!!
+Price: <del>$25.00</del> $15.00!!!
 
-Color
+**Color**
+<select>
+  <option value="Red">Red</option>
+  <option value="Orange">Orange</option>
+  <option value="Yellow">Yellow</option>
+  <option value="Green">Green</option>
+  <option value="Blue">Blue</option>
+  <option value="Purple">Purple</option>
+</select>
 
-**Quantity**
-1
+**Quantity:**
+<select>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select>
 
-**Add to Cart**
+<button>
+  Add to Cart
+</button>

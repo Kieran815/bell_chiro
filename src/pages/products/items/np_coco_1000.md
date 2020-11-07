@@ -32,14 +32,24 @@ Take 1-5 drops daily as a dietary supplement.
 
 **Price**
 
-$89.99 Regular Price$59.99Sale Price
+<del>$89.99</del> $59.99 Sale Price
 
 **Size**
-1
-4
-32oz
+<select>
+  <option value="1oz">1 oz</option>
+  <option value="4oz">4 oz</option>
+  <option value="32oz">32 oz</option>
+</select>
 
-**Quantity**
-1
+**Quantity:**
+<select>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select>
 
-**Add to Cart**
+<button>
+  Add to Cart
+</button>

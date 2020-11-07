@@ -24,9 +24,17 @@ Take 1 capsule daily as a dietary supplement.
 
 **Price**
 
-$200.00 Regular Price $100.00 Sale Price
+<del>$200.00</del> $100.00 Sale Price
 
-**Quantity**
-1
+**Quantity:**
+<select>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select>
 
-**Add to Cart**
+<button>
+  Add to Cart
+</button>

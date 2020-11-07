@@ -1,10 +1,10 @@
 module.exports = {
   pathPrefix: "/",
   siteMetadata: {
-    title: "Bell Chiropractic & Pain Management",
+    title: "Wang Chiropractic",
     contact: {
-      phone: "314-838-1983",
-      email: "info@bellchirostl.com"
+      phone: "314-555-5555",
+      email: "info@example.com"
     },
     menuLinks: [
       {
@@ -122,7 +122,7 @@ module.exports = {
       },
       {
         name: "Bath Bombs",
-        link: "/products/items/bath_bombs"
+        link: "/products/items/bath_bombs_150"
       },
       {
         name: "Neuro-Pro Massage Lotion 1000",

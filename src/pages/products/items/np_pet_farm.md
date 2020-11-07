@@ -10,9 +10,18 @@ image: "./np_pet_farm.webp"
 Taking your horse on a road trip? Give them a relaxing ride with a 500mg dose and watch the difference.
 
 **Price**
-$400.00 Regular Price $200.00 Sale Price
 
-**Quantity**
-1
+<del>$400.00</del> $200.00 Sale Price
 
-**Add to Cart**
+**Quantity:**
+<select>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select>
+
+<button>
+  Add to Cart
+</button>
