@@ -1,8 +1,9 @@
 ---
-path: "/products/items/bath_bombs_150"
+path: "/items/bath_bombs_150"
 title: "Bath Bombs (150mg)"
 date: 2020-04-12T12:59:42
 image: "./bath_bomb_150.webp"
+price: "<del>$25.00</del> $15.00!!!"
 ---
 
 These bath bombs are all made by hand with all natural ingredients.
@@ -25,7 +26,7 @@ We found that allowing the oil to soak into your skin when exiting the tub and N
 
 Mint Scented
 
-Price: <del>$25.00</del> $15.00!!!
+
 
 **Color**
 <select>
@@ -36,16 +37,3 @@ Price: <del>$25.00</del> $15.00!!!
   <option value="Blue">Blue</option>
   <option value="Purple">Purple</option>
 </select>
-
-**Quantity:**
-<select>
-  <option value="1">1</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-  <option value="5">5</option>
-</select>
-
-<button>
-  Add to Cart
-</button>

@@ -1,10 +1,10 @@
-import withRoot from "../../../utils/withRoot";
+import withRoot from "../../utils/withRoot";
 import React from "react";
 import { graphql } from "gatsby";
-import SEO from "../../../components/SEO";
-import Page from "../../../components/Page";
-import List from "../../../components/List";
-import Card from "../../../components/Card";
+import SEO from "../../components/SEO";
+import Page from "../../components/Page";
+import List from "../../components/List";
+import Card from "../../components/Card";
 
 const Products = props => {
   const items = props.data.allMarkdownRemark.edges;
@@ -21,7 +21,7 @@ const Products = props => {
 export const query = graphql`
   query ItemsQuery {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/products/items/" } }
+      filter: { fileAbsolutePath: { regex: "/items/" } }
       sort: { fields: frontmatter___date, order: DESC }
     ) {
       edges {

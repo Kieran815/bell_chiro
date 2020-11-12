@@ -15,7 +15,7 @@ import ItemsCarousel from "../components/ItemsCarousel";
 import withStyles from "@material-ui/styles/withStyles";
 import { makeStyles } from "@material-ui/core/styles";
 // logo banner
-import bellLogo from "./images/bell_logo_dark.jpg";
+import WangLogo from "./images/Wang_logo_dark.jpg";
 import LocalHospitalOutlinedIcon from "@material-ui/icons/LocalHospitalOutlined";
 import PhoneAndroidIcon from "@material-ui/icons/PhoneAndroid";
 import QueryBuilderIcon from "@material-ui/icons/QueryBuilder";
@@ -46,16 +46,16 @@ const styles = theme => ({
         <SEO title="Home">
           <meta
             name="description"
-            content="Bell Chriopractic and Pain Management; Serving St. Louis since 1977; Florissant, Missouri; Telemedicine; Car Accidents; Medical Marijuana Certification; Medical Marijuana; Low Testosterone Therapy; Low T Therapy; Low-T Therapy; Decompression"
+            content="Wang Chriopractic and Pain Management; Serving St. Louis since 1901; Florissant, Missouri; Telemedicine; Car Accidents; Medical Marijuana Certification; Medical Marijuana; Low Testosterone Therapy; Low T Therapy; Low-T Therapy; Decompression"
           />
         </SEO>
         <div id="site_intro" style={{ marginBottom: "2em" }}>
           <Card>
             <CardMedia
               className={classes.media}
-              image={bellLogo}
+              image={WangLogo}
               style={{borderRadius: "5px", marginTop: "-2em"}}
-              title="Bell Chiropractic & Pain Management"
+              title="Wang Chiropractic & Pain Management"
             />
             <CardHeader
               title="Serving Florissant since 1977"
@@ -69,7 +69,7 @@ const styles = theme => ({
               laser therapy or even a medical certification, we are here for
               you!​{" "}
               <strong>
-                Be your best possible you with Bell Chiropractic & Pain
+                Be your best possible you with Wang Chiropractic & Pain
                 Management.
               </strong>
             </CardContent>
@@ -82,18 +82,18 @@ const styles = theme => ({
                       <h3>Address:</h3>
                     </div>
                     <a
-                      href="https://www.google.com/maps/place/493+Rue+St+Francois+%231A,+Florissant,+MO+63031/@38.7942955,-90.3303118,17z/data=!3m1!4b1!4m5!3m4!1s0x87df37a351551005:0xa01648a699f5ed62!8m2!3d38.7942955!4d-90.3281231"
+                      href="https://www.google.com/maps/d/viewer?ie=UTF8&hl=en&msa=0&ll=38.70694600000002%2C-90.236206&spn=0.85732%2C1.098633&z=8&source=embed&mid=1Imax3L2Z7IkzD-u8P6Qf0VT6Nak"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      493 Rue St Francois #1A
-                      <br /> Florissant, MO 63031
+                      123 Chestnut Street
+                      <br />St. Louis, MO 63146
                     </a>
                     <div className="method-head">
                       <PhoneAndroidIcon />
                       <h3>Phone:</h3>
                     </div>
-                    <a href="tel:314-838-1983">(314) 838-1983</a>
+                    <a href="tel:555-555-5555">(555) 555-5555</a>
                   </CardContent>
                 </Paper>
                 <Paper className="contact-method">
@@ -104,7 +104,7 @@ const styles = theme => ({
                     </div>
                     <iframe
                       title="Google_Map_Pin"
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3109.6657840999337!2d-90.33031178255611!3d38.794295500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87df3747c061b7e3%3A0x84d05d5cb60a30ee!2sBell%20Chiropractic%20%26%20Pain%20Management!5e0!3m2!1sen!2sus!4v1586537886759!5m2!1sen!2sus"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3109.6657840999337!2d-90.33031178255611!3d38.794295500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87df3747c061b7e3%3A0x84d05d5cb60a30ee!2sWang%20Chiropractic%20%26%20Pain%20Management!5e0!3m2!1sen!2sus!4v1586537886759!5m2!1sen!2sus"
                       width="auto"
                       height="auto"
                       frameBorder="0"

@@ -1,5 +1,5 @@
 ---
-path: "/products/services/telemedicine"
+path: "/services/telemedicine"
 title: "Telemedicine"
 date: 2020-04-07T13:24:42
 image: "./telemedicine.webp"
@@ -8,7 +8,7 @@ image: "./telemedicine.webp"
 ## Speaking with a Medical Professional has Never been So Easy
 
 1. Fill out the form below.
-2. Schedule Now or Call us at <a href="tel:314-838-1983">314-838-1983</a>
+2. Schedule Now or Call us at <a href="tel:555-555-5555">555-555-5555</a>
 3. Download the <a href="https://zoom.us/" target="blank" rel="noopener noreferrer">Zoom</a> app on your tablet or smartphone
 4. The doctor sends you an email invite to join him at the scheduled time. You click the link and attend your appointment!
 
@@ -47,5 +47,3 @@ image: "./telemedicine.webp"
 ## Register As a Patient
 
 Let us help take care of you.
-
-** Patient Reg Form **

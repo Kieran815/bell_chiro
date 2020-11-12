@@ -26,7 +26,7 @@ const styles = theme => ({
             }
           }
           allMarkdownRemark(
-            filter: { fileAbsolutePath: { regex: "/products/items/" } }
+            filter: { fileAbsolutePath: { regex: "/items/" } }
             sort: { fields: [frontmatter___date], order: DESC }
           ) {
             edges {
@@ -60,7 +60,7 @@ const styles = theme => ({
                 color="primary"
                 variant="contained"
                 component={Link}
-                to="/products/items/"
+                to="/items/"
               >
                 View All Items
               </Button>

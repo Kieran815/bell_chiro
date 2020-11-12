@@ -20,7 +20,9 @@ const styles = {
 const Detail = ({ classes, data }) => {
   const {
       title,
-      image: { publicURL }
+      image: { publicURL },
+      price,
+      oldPrice
     } = data.markdownRemark.frontmatter,
     { html } = data.markdownRemark;
   return (
@@ -36,14 +38,30 @@ const Detail = ({ classes, data }) => {
             {title}
           </Typography>
           <Typography dangerouslySetInnerHTML={{ __html: html }} />
+          <div style={{display: 'flex', flexDirection: 'row'}}>
+            <p style={{ paddingRight:"1em"}}><b>Price:</b></p> {oldPrice === null ?
+              <p>${price}</p> :
+              <div style={{display: 'flex'}}>
+                <p style={{textDecoration: "line-through", paddingRight: '1em'}}>${oldPrice}</p>
+                <p><b>Now ${price}</b></p>
+              </div>
+            }
+          </div>
+          <b>Quantity: </b>
+          <select>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
         </CardContent>
         <Button
           variant="contained"
           color="primary"
-          href="/Patient_Form"
           style={{ width: "100%", marginRight: "auto", marginLeft: "auto" }}
         >
-          Schedule an Appointment
+          Add to Cart
         </Button>
       </Card>
     </Page>
@@ -51,14 +69,16 @@ const Detail = ({ classes, data }) => {
 };
 
 export const query = graphql`
-  query($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+  query ($id: String!) {
+    markdownRemark(id: {eq: $id}) {
       frontmatter {
         image {
           publicURL
         }
         title
+        price
         path
+        oldPrice
       }
       html
     }

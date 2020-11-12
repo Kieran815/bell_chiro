@@ -1,7 +1,7 @@
 ---
-path: "/products/services/accident"
+path: "/services/accident"
 title: "Car Accidents"
-date: 2020-04-07T14:31:42
+date: 2020-04-07T14:31:41
 image: "./car-accident.jpg"
 ---
 
@@ -12,17 +12,13 @@ We can usually get you in the same day to start treatment for your injuries. We 
 
 ## We have over 50 years of combined experience in treating injuries sustained in an accident.
 
-"The injuries you get in an accident are like nothing you have ever experienced before. I played D-II football with other men who were 300+lbs of rock solid muscle, and can tell you first hand that the type of pain we all may experience on a daily basis is nothing compared to the forces at work in an accident.
+The injuries you get in an accident are like nothing you have ever experienced before. I played D-II football with other men who were 300+lbs of rock solid muscle, and can tell you first hand that the type of pain we all may experience on a daily basis is nothing compared to the forces at work in an accident.
 
 There is usually tissue damage that can take months or years to correct and repair with proper treatment.
 We are all essentially big hairy bags of water with some calcium thrown in, and when we are involved in an accident with 5,000lb+ steel and rubber missiles colliding together we can be left with injuries that stay with us for life.
 
 Because of that, treatment is essential and the earlier, the better. The traumatic injuries causing inflammation, bruising, scar tissue & more can make life miserable.
-Dont live in pain from someone else's mistake, get treatment today."
-
-<div style="text-align: right">
--Blake Bell
-</div>
+Dont live in pain from someone else's mistake, get treatment today.
 
 ## Frequently Asked Questions
 
@@ -38,5 +34,3 @@ Dont live in pain from someone else's mistake, get treatment today."
 - **What do you offer for treatment?**
 
   That depends on your injuries. We can adjust you, use class III lasers, trigger point injections, medications, physical therapy, massage and more. Whatever it is we do, you will always leave our office feeling better than when you came in.
-
-      ** Patient Contact Form **

@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     title: "Wang Chiropractic",
     contact: {
-      phone: "314-555-5555",
+      phone: "555-555-5555",
       email: "info@example.com"
     },
     menuLinks: [
@@ -19,11 +19,11 @@ module.exports = {
     mobileMenuLinks: [
       {
         name: "Services",
-        link: "/products/services"
+        link: "/services"
       },
       {
         name: "Shop",
-        link: "/products/items"
+        link: "/items"
       },
       {
         name: "Meet Our Team",
@@ -37,112 +37,112 @@ module.exports = {
     serviceLinks: [
       {
         name: "View All Services",
-        link: "/products/services/"
+        link: "/services/"
       },
       {
         name: "Primary Care Services",
-        link: "/products/services/primary_care"
+        link: "/services/primary_care"
       },
       {
         name: "Decompression",
-        link: "/products/services/decompression"
+        link: "/services/decompression"
       },
       {
         name: "Testosterone  Replacement Therapy",
-        link: "/products/services/low_t_therapy"
+        link: "/services/low_t_therapy"
       },
       {
         name: "Car Accidents",
-        link: "/products/services/accident"
+        link: "/services/accident"
       },
       {
         name: "Medical Certification",
-        link: "/products/services/med_cert_eval"
+        link: "/services/med_cert_eval"
       },
 
       {
         name: "Telemedicine",
-        link: "/products/services/telemedicine"
+        link: "/services/telemedicine"
       },
 
       {
         name: "Decompression",
-        link: "/products/services/decompression"
+        link: "/services/decompression"
       },
 
       {
         name: "DOT Physicals",
-        link: "/products/services/DOT_physicals"
+        link: "/services/DOT_physicals"
       }
     ],
     itemLinks: [
       {
         name: "View All Health & Wellness Products",
-        link: "/products/items/"
+        link: "/items/"
       },
       {
         name: "Neuro-Pro 250",
-        link: "/products/items/np_250"
+        link: "/items/np_250"
       },
       {
         name: "Neuro-Pro 500",
-        link: "/products/items/np_500"
+        link: "/items/np_500"
       },
       {
         name: "Neuro-Pro CoCo 500",
-        link: "/products/items/np_coco_500"
+        link: "/items/np_coco_500"
       },
       {
         name: "Neuro-Pro 1000",
-        link: "/products/items/np_1000"
+        link: "/items/np_1000"
       },
       {
         name: "Neuro-Pro CoCo 1000",
-        link: "/products/items/np_coco_1000"
+        link: "/items/np_coco_1000"
       },
       {
         name: "Neuro-Pro 3000",
-        link: "/products/items/np_3000"
+        link: "/items/np_3000"
       },
       {
         name: "Neuro-Pro 6000",
-        link: "/products/items/np_6000"
+        link: "/items/np_6000"
       },
       {
         name: "Neuro-Pro Gold Capsules (30 ct)",
-        link: "/products/items/np_cap_gold"
+        link: "/items/np_cap_gold"
       },
       {
         name: "Neuro-Pro Platinum Capsules (30 ct)",
-        link: "/products/items/np_cap_plat"
+        link: "/items/np_cap_plat"
       },
       {
         name: "Neuro-Pro Night Capsules (30 ct)",
-        link: "/products/items/np_cap_night"
+        link: "/items/np_cap_night"
       },
       {
         name: "Bath Bombs",
-        link: "/products/items/bath_bombs_150"
+        link: "/items/bath_bombs_150"
       },
       {
         name: "Neuro-Pro Massage Lotion 1000",
-        link: "/products/items/np_lotion_1000"
+        link: "/items/np_lotion_1000"
       },
       {
         name: "Neuro-Pro Massage Oil 1000",
-        link: "/products/items/np_massage_oil_1000"
+        link: "/items/np_massage_oil_1000"
       },
       {
         name: "Neuro-Pro Pet 500",
-        link: "/products/items/np_pet_500"
+        link: "/items/np_pet_500"
       },
       {
         name: "Neuro-Pro Pet 1000",
-        link: "/products/items/np_pet_1000"
+        link: "/items/np_pet_1000"
       },
       {
         name: "Neuro-Pro Farm",
-        link: "/products/items/np_pet_farm"
+        link: "/items/np_pet_farm"
       }
     ]
   },

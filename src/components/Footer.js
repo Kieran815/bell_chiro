@@ -36,12 +36,12 @@ const Footer = withStyles(styles)(props => {
           <Typography variant="caption" component="span">
             ©{new Date().getFullYear()} {title} <br />
             <a
-              href="https://www.google.com/maps/place/Bell+Chiropractic+%26+Pain+Management/@38.7936075,-90.328719,16z/data=!4m5!3m4!1s0x0:0x84d05d5cb60a30ee!8m2!3d38.7942955!4d-90.3281231"
+              href="https://www.google.com/maps/d/viewer?ie=UTF8&hl=en&msa=0&ll=38.70694600000002%2C-90.236206&spn=0.85732%2C1.098633&z=8&source=embed&mid=1Imax3L2Z7IkzD-u8P6Qf0VT6Nak"
               style={{ color: "white" }}
               target="_blank"
               rel="noopener noreferrer"
             >
-              493 RUE ST. FRANCOIS Ste #1A
+              123 Chestnut Street
             </a>{" "}
             |{" "}
             <a href={"mailto:" + email} style={{ color: "white" }}>

@@ -1,5 +1,5 @@
 ---
-path: "/products/services/decompression"
+path: "/services/decompression"
 title: "Cervical and Spinal Decompression"
 date: 2020-04-08T13:08:42
 image: "./adjustment.png"
@@ -18,7 +18,7 @@ Spinal Decompression is a revolutionary new procedure for back pain sufferers! I
 
 ### Call Us Today to Schedule Your Consultation!
 
-We treat low back pain, neck pain, sciatica, herniated discs, degenerative or bulging discs, or spinal stenosis with non surgical spinal decompression. Learn more about this safe, comfortable, and affordable low back and neck pain treatment offered by Bell Chiropractic & Pain Management in Florissant, Missouri.
+We treat low back pain, neck pain, sciatica, herniated discs, degenerative or bulging discs, or spinal stenosis with non surgical spinal decompression. Learn more about this safe, comfortable, and affordable low back and neck pain treatment offered by Wang Chiropractic & Pain Management in Florissant, Missouri.
 
 Call us to schedule a complimentary consultation to determine if you are a candidate for Spinal Decompression and our multi-step Protocol. The doctor will ask you a series of questions such as “Where is the pain, when did it begin, what makes it better or worse?” Then a thorough examination will be performed in which case the doctor will check your reflexes, blood pressure, balance, gait, skin sensory changes, muscle strength, and more to determine the cause of your back or neck pain. At this point the doctor may recommend x-rays or an MRI if he feels like further imaging will be necessary to determine the exact cause. After combining all of this information together the doctor will determine if you will make a good candidate for spinal decompression therapy and our multi-step Protocol. If you do qualify for care, your Doctor will explain their recommended plan of action for you. If for some reason you do not qualify for care the doctor will refer you to someone who may better suit your needs.
 

@@ -1,5 +1,5 @@
 ---
-path: "/products/services/primary_care"
+path: "/services/primary_care"
 title: "Primary Care Services"
 date: 2020-04-08T13:10:42
 image: "./primary_banner.jpg"
@@ -33,4 +33,4 @@ Come see our Board Certified Physician in Internal Medicine
 - E.D.
 - Low energy and vitamin deficiency
 
-Now offering <a href="/products/telemedicine">telemedicine!</a>
+Now offering <a href="/services/telemedicine">telemedicine!</a>

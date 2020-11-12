@@ -1,5 +1,5 @@
 ---
-path: "/products/services/med_cert_eval"
+path: "/services/med_cert_eval"
 title: "Medical Certification Evaluation"
 date: 2020-04-07T13:11:46+10:00
 image: "./galina-n-200668-unsplash.jpg"
@@ -17,14 +17,14 @@ Download the <a href="https://zoom.us/" target="blank" rel="noopener noreferrer"
 
 **Have your medical records and state issued ID sent to us at:**
 <br/>
-Email: <info@BellChiroStl.com><br/>
-Fax: 314-838-1586
+Email: <info@example.com><br/>
+Fax: 314-555-6666
 
 **Already Certified?**
 
 Click <a href="https://mo-public.mycomplia.com/#!/mo/register" target="blank" rel="noopener noreferrer">Here</a> to Apply with DHSS and become a patient!!!
 
-Choosing a clinic with integrity is important, which is why so many people across Missouri choose to see us at Bell Chiropractic and Pain Management.
+Choosing a clinic with integrity is important, which is why so many people across Missouri choose to see us at Wang Chiropractic and Pain Management.
 ​
 Have special questions? Call our office at
 
@@ -99,7 +99,7 @@ We have a tablet here for you to use in our office and can assist you while you 
 
 * **Where can I fax my medical records so that they can be viewed by the physician at the time of my medical marijuana evaluation appointment?**
 
-  You can fax your records to 314-838-1586 or you can have them emailed to <info@BellChiroStl.com>. DHSS began accepting applications for cultivation, manufacturing, and dispensing facilities on Aug. 3, 2019.
+  You can fax your records to 555-555-6666 or you can have them emailed to <info@example.com>. DHSS began accepting applications for cultivation, manufacturing, and dispensing facilities on Aug. 3, 2019.
 
 * **When will I receive my Missouri medical marijuana card?**
 
@@ -153,5 +153,3 @@ We have a tablet here for you to use in our office and can assist you while you 
 - **What is your office cancellation policy?**
 
   We require a 48 hour notice to change or cancel an appointment.
-
-#Book Online Button

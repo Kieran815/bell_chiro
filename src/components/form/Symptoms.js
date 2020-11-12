@@ -25,7 +25,6 @@ class Symptoms extends Component {
           <div>
           <h3>Symptoms:</h3>
           <form onChange={inputChange('ailments')} style={{display: 'flex', flexDirection: 'column'}}>
-            <label htmlFor="ailments" />
             <textarea id="ailments" rows="4" cols="50" />
           </form>
           </div>

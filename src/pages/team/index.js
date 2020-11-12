@@ -52,7 +52,7 @@ const Team = props => {
               }
             } = edge;
             return (
-              <Link key={path} to={path}>
+              <Link key={path} to={path} style={{overflow: 'hidden'}}>
                 <GridListTile cols={1}>
                   <img src={withPrefix(publicURL)} alt={title} />
                   <GridListTileBar
