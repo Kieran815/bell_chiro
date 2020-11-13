@@ -30,12 +30,7 @@ const Team = props => {
         </div>
         <Typography paragraph>
           <CardContent>
-            Some text about how great yall are and some other shit about your
-            call to action or whatever you want to do to introduce yourselves to
-            potential clients or people who don't know you or haven't done
-            business with you or whatever I'm still typing because fake
-            paragraph to play with font spacing in mobile vs tablet vs laptop vs
-            desktop.
+            With over 100 combined years of service, you can trust the staff to take the best care of you.
           </CardContent>
         </Typography>
 

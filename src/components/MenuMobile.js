@@ -30,8 +30,8 @@ export default function SimpleMenu() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleClose}><a  href="/products/services">Services</a></MenuItem>
-        <MenuItem onClick={handleClose}><a  href="/products/items">Shop</a></MenuItem>
+        <MenuItem onClick={handleClose}><a  href="/services">Services</a></MenuItem>
+        <MenuItem onClick={handleClose}><a  href="/items">Shop</a></MenuItem>
         <MenuItem onClick={handleClose}><a  href="/team">About</a></MenuItem>
       </Menu>
       <a

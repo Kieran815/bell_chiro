@@ -1,11 +1,13 @@
 {
-  "name": "Bell Chiropractic & Pain Management",
+  "name": "Wang_Chiropractic",
   "version": "1.0.0",
   "author": "K. Michael Milligan",
-  "description": "Bell Chriopractic and Pain Management; Serving St. Louis since 1977; Florissant, Missouri; Telemedicine; Car Accidents; Medical Marijuana Certification; Medical Marijuana; Low Testosterone Therapy; Low T Therapy; Low-T Therapy; Decompression",
+  "description": "Wang Chriopractic and Pain Management; Serving St. Louis since 1977; Florissant, Missouri; Telemedicine; Car Accidents; Medical Marijuana Certification; Medical Marijuana; Low Testosterone Therapy; Low T Therapy; Low-T Therapy; Decompression",
   "license": "MIT",
+  "homepage": "https://kieran815.github.io/wang_chiro/",
   "scripts": {
     "develop": "gatsby develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "start": "npm run develop",
     "build": "gatsby build --prefix-paths",
     "serve": "gatsby serve",
@@ -28,7 +30,6 @@
     "gatsby-react-router-scroll": "^3.0.15",
     "gatsby-source-filesystem": "^2.4.2",
     "gatsby-transformer-remark": "^2.9.2",
-    "gh-pages": "^3.1.0",
     "jss": "^10.4.0",
     "lodash": "^4.17.20",
     "mdi-material-ui": "^6.20.0",
@@ -49,5 +50,8 @@
     "react-swipeable-views-utils": "^0.13.9",
     "shallow-compare": "^1.2.2",
     "xhr-mock": "^2.5.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }

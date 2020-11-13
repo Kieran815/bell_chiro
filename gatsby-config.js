@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/",
+  pathPrefix: `kieran815.github.io/wang_chiro`,
   siteMetadata: {
     title: "Wang Chiropractic",
     contact: {
@@ -10,10 +10,6 @@ module.exports = {
       {
         name: "About",
         link: "/team"
-      },
-      {
-        name: "Form",
-        link: "/Patient_Form"
       }
     ],
     mobileMenuLinks: [
@@ -28,10 +24,6 @@ module.exports = {
       {
         name: "Meet Our Team",
         link: "/team"
-      },
-      {
-        name: "Schedule an Appointment",
-        link: "/Patient_Form"
       }
     ],
     serviceLinks: [

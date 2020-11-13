@@ -35,7 +35,7 @@ const Menu = withStyles(styles)(props => {
         ))}
         {/* Facebook Link Icon*/}
         <a
-          href="https://www.facebook.com/BellChiroStL/"
+          href="https://www.facebook.com/"
           target="_blank"
           rel="noopener noreferrer"
         >

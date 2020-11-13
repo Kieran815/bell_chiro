@@ -1,25 +1,27 @@
 ---
-path: "/team/dr-bell"
-title: "Dr. Gene Bell"
+path: "/team/nathanson"
+title: "Molly	Nathanson, MSN,	CNM"
 date: 2018-11-19T10:47:58+10:00
 draft: false
 image: "./sandy-millar-773383-unsplash.jpg"
-jobtitle: "Founder and Inspiration"
+jobtitle: "Patient Care"
 weight: 1
 ---
 
-Bell Chiropractic was established in 1977 by Dr. Gene Bell (1944-2018). He is the inspiration behind who we are and our vision of what true healthcare is. Here is an article about him in the local paper a few years ago.
-<br/>​
 
-FOR THE RAGE, IT’S A MATTER OF TRUST.
-By Mike Thompson
-
-As Rage Head Football Coach Mike Wyatt relays the story, it’s the last regular season game of the year against the Dayton Warbirds. Rage defensive lineman Jay Carmack has been brought to the sidelines after taking an exceptionally hard blow to the head. After being examined by team doctor Gene Bell, he’s told to have a seat on the bench. He’s suffered a concussion , and is too valuable to the team to risk further injury, which could, and most likely would , set him down for the playoffs as well. ‘’So now, its Jay the competitor versus Doc, me and good judgment,’’ said Wyatt in his office last week, ‘’ Jays telling me he can go back in, fighting with my assistant coaches to get back in the field. I asked an assistant coach if Jay could go, and the answer was yes, he says he can. Then I asked Doc, and he said Jay needs to sit it out. I told Coach Edmunds to tell Jay to have a seat. He’s done for the night.’’
-
-It was then that Wyatt told me something I’ve long suspected after observing his relationship with our valued team Physician, Dr. Gene Bell. ‘’I trust Doc’s judgment completely. I mean, he has been absolutely correct in every, and I mean EVERY diagnosis regarding our players since he came on board, from strains to sprains, concussions, pulls, major injuries, surgery decisions, everything. I never doubt Doc, and that’s a comforting thought knowing I have someone working with our players that I can completely trust. When I send in my roster to the league on Thursday before our weekend games, I know I’ve got the best 25 players who are ready to go.’’
-
-The education, medical school bio and resume of Dr. Gene Dennis Bell reads like a profiled’ Who’s –Who’ in some medical journal. Admittedly, even I did not know the extent of his Doctorate and Post-Doctorate education until I requested his resume from Coach Wyatt last week to write this article. You gotta be kidding me!!
-
-It’s twenty-four, TWENTY-FOUR pages long, neatly typed, 8 by 10. Let’s just say he’s a Doctor of Chiropractic Medicine with his own office on North Highway 67 / Lindbergh in Florissant, a member of the National Board of Chiropractic Examiners, a Certified Sports Physician, and a longtime member of the National Strength and Conditioning Association. The former Wisconsin University running back and semi-pro football player also holds teaching certificates in both Missouri and Wisconsin, has conducted medical and chiropractic seminars around the country, is an accomplished musician, and holds a qualified pilots license. No, he’s never, at least in my presence, turned water into wine, but he has the trust and respect of everyone on the staff at Rage Headquarters, and I’m glad to say, over the past year has become a good friend.
-
-Perhaps Coach Wyatt says it best when he told me Tuesday that ‘’Doc never really says a whole lot about himself. You’d never know he’s done as much as he has , but hey, the ones who do the most usually let the accomplishments speak for themselves.’’
+Molly	Nathanson MSN,	CNM is	originally	from	Massachusetts	where	she	attended
+Brandeis	University	for	her	undergraduate	degrees	in	Health:	Science,	Society,	and
+Policy,	as	well	as	Sculpture.	In	her	junior	year	at	Brandeis,	she	spent	a	semester
+abroad	in	Kenya	studying	the	midwives	of	the	Maasai	tribe,	solidifying	her	decision
+to	become	a	midwife.		
+Molly	later	attended	Columbia	University’s	accelerated	nursing	program	and
+continued	on	to	get	her	master’s	degree	in	their	Nurse-Midwifery	program.		While
+attending	Columbia,	she	trained	and	volunteered	as	a	doula	in	New	York	City.	Molly
+explains,	“I	love	supporting	women	and	empowering	them	through	all	walks	of	life
+and	I	see	myself	as	a	partner	in	their	OB	and	GYN	healthcare.	I	especially	enjoy
+building	relationships	and	working	with	young	women	to	help	them	as	they
+establish	their	healthcare	goals	and	needs.”
+In	her	spare	time,	Molly	enjoys	traveling,	metal	and	fiber	art,	cooking,	and	spending
+time	outdoors.	She	is	conversant	in	German	and	American	Sign	Language.	She	is
+very	excited	to	be	part	of	Starling	Physicians	and	is	proud	to	work	with	such	a
+fantastic	team	of	practitioners.
