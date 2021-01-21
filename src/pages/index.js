@@ -1,52 +1,49 @@
-import withRoot from "../utils/withRoot";
-import React from "react";
-import { graphql } from "gatsby";
-import PropTypes from "prop-types";
-import SEO from "../components/SEO";
-import Button from "@material-ui/core/Button";
-import Card from "../components/Card";
-import CardMedia from "@material-ui/core/CardMedia";
-import CardHeader from "@material-ui/core/CardHeader";
-import CardContent from "@material-ui/core/CardContent";
-import Paper from "@material-ui/core/Paper";
-import Page from "../components/Page";
-import ServiceCarousel from "../components/ServiceCarousel";
-import ItemsCarousel from "../components/ItemsCarousel";
-import withStyles from "@material-ui/styles/withStyles";
-import { makeStyles } from "@material-ui/core/styles";
+import withRoot from "../utils/withRoot"
+import React from "react"
+import { graphql } from "gatsby"
+import PropTypes from "prop-types"
+import SEO from "../components/SEO"
+import Button from "@material-ui/core/Button"
+import Card from "../components/Card"
+import CardMedia from "@material-ui/core/CardMedia"
+import CardHeader from "@material-ui/core/CardHeader"
+import CardContent from "@material-ui/core/CardContent"
+import Paper from "@material-ui/core/Paper"
+import Page from "../components/Page"
+import ServiceCarousel from "../components/ServiceCarousel"
+import ItemsCarousel from "../components/ItemsCarousel"
+import withStyles from "@material-ui/styles/withStyles"
+import { makeStyles } from "@material-ui/core/styles"
 // logo banner
-import WangLogo from "./images/Wang_logo_dark.jpg";
-import LocalHospitalOutlinedIcon from "@material-ui/icons/LocalHospitalOutlined";
-import PhoneAndroidIcon from "@material-ui/icons/PhoneAndroid";
-import QueryBuilderIcon from "@material-ui/icons/QueryBuilder";
-import DirectionsCarIcon from "@material-ui/icons/DirectionsCar";
-import "../css/style.styl";
-
-
-
+import WangLogo from "./images/Wang_logo_dark.jpg"
+import LocalHospitalOutlinedIcon from "@material-ui/icons/LocalHospitalOutlined"
+import PhoneAndroidIcon from "@material-ui/icons/PhoneAndroid"
+import QueryBuilderIcon from "@material-ui/icons/QueryBuilder"
+import DirectionsCarIcon from "@material-ui/icons/DirectionsCar"
+import "../css/style.styl"
 
 const useStyles = makeStyles({
   media: {
     minWidth: "100%",
     minHeight: "50vh",
-    marginBottom: "3em"
-  }
-});
+    marginBottom: "3em",
+  },
+})
 
-const styles = theme => ({
+const styles = (theme) => ({
     root: {
       fontWeight: "bold",
-      backgroundColor: "#2b3940"
-    }
+      backgroundColor: "#2b3940",
+    },
   }),
-  Home = props => {
-    const classes = useStyles();
+  Home = (props) => {
+    const classes = useStyles()
     return (
       <Page>
         <SEO title="Home">
           <meta
             name="description"
-            content="Wang Chriopractic and Pain Management; Serving St. Louis since 1901; Florissant, Missouri; Telemedicine; Car Accidents; Medical Marijuana Certification; Medical Marijuana; Low Testosterone Therapy; Low T Therapy; Low-T Therapy; Decompression"
+            content="Wang Chiropractic and Pain Management; Serving St. Louis since 1901; Florissant, Missouri; Telemedicine; Car Accidents; Medical Marijuana Certification; Medical Marijuana; Low Testosterone Therapy; Low T Therapy; Low-T Therapy; Decompression"
           />
         </SEO>
         <div id="site_intro" style={{ marginBottom: "2em" }}>
@@ -54,7 +51,7 @@ const styles = theme => ({
             <CardMedia
               className={classes.media}
               image={WangLogo}
-              style={{borderRadius: "5px", marginTop: "-2em"}}
+              style={{ borderRadius: "5px", marginTop: "-2em" }}
               title="Wang Chiropractic & Pain Management"
             />
             <CardHeader
@@ -75,7 +72,7 @@ const styles = theme => ({
             </CardContent>
             <CardContent>
               <div className="contact-info">
-                <Paper  className="contact-method">
+                <Paper className="contact-method">
                   <CardContent className="method-card">
                     <div className="method-head">
                       <LocalHospitalOutlinedIcon fontSize="large" />
@@ -87,7 +84,8 @@ const styles = theme => ({
                       rel="noopener noreferrer"
                     >
                       123 Chestnut Street
-                      <br />St. Louis, MO 63146
+                      <br />
+                      St. Louis, MO 63146
                     </a>
                     <div className="method-head">
                       <PhoneAndroidIcon />
@@ -109,14 +107,14 @@ const styles = theme => ({
                       height="auto"
                       frameBorder="0"
                       style={{
-                        border: "1px solid #0782c8"
+                        border: "1px solid #0782c8",
                       }}
                       allowFullScreen=""
                       aria-hidden="false"
                     ></iframe>
                   </CardContent>
                 </Paper>
-                <Paper className='contact-method'>
+                <Paper className="contact-method">
                   <CardContent className="method-card">
                     <div className="method-head">
                       <QueryBuilderIcon />
@@ -147,8 +145,8 @@ const styles = theme => ({
           <ItemsCarousel />
         </div>
       </Page>
-    );
-  };
+    )
+  }
 
 export const query = graphql`
   query {
@@ -179,10 +177,10 @@ export const query = graphql`
       }
     }
   }
-`;
+`
 
 Home.propTypes = {
-  classes: PropTypes.object.isRequired
-};
+  classes: PropTypes.object.isRequired,
+}
 
-export default withRoot(withStyles(styles)(Home));
+export default withRoot(withStyles(styles)(Home))

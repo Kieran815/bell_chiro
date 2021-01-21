@@ -1,26 +1,36 @@
-import React from 'react';
-import Button from '@material-ui/core/Button';
-import Menu from '@material-ui/core/Menu';
-import MenuItem from '@material-ui/core/MenuItem';
-import IconButton from "@material-ui/core/IconButton";
-import MenuIcon from '@material-ui/icons/Menu';
+import React from "react"
+import Button from "@material-ui/core/Button"
+import Menu from "@material-ui/core/Menu"
+import MenuItem from "@material-ui/core/MenuItem"
+import IconButton from "@material-ui/core/IconButton"
+import MenuIcon from "@material-ui/icons/Menu"
 import { Facebook } from "@material-ui/icons"
 
-
 export default function SimpleMenu() {
-  const [anchorEl, setAnchorEl] = React.useState(null);
+  const [anchorEl, setAnchorEl] = React.useState(null)
 
   const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
+    setAnchorEl(event.currentTarget)
+  }
 
   const handleClose = () => {
-    setAnchorEl(null);
-  };
+    setAnchorEl(null)
+  }
 
   return (
-    <div style={{ display: "flex", justifyContent: "space-around", maxWidth: "100vw", flexWrap: "nowrap"}}>
-      <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "space-around",
+        maxWidth: "100vw",
+        flexWrap: "nowrap",
+      }}
+    >
+      <Button
+        aria-controls="simple-menu"
+        aria-haspopup="true"
+        onClick={handleClick}
+      >
         <MenuIcon style={{ color: "white" }} />
       </Button>
       <Menu
@@ -30,9 +40,15 @@ export default function SimpleMenu() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleClose}><a  href="/services">Services</a></MenuItem>
-        <MenuItem onClick={handleClose}><a  href="/items">Shop</a></MenuItem>
-        <MenuItem onClick={handleClose}><a  href="/team">About</a></MenuItem>
+        <MenuItem onClick={handleClose}>
+          <a href="/wang_chiro/services">Services</a>
+        </MenuItem>
+        <MenuItem onClick={handleClose}>
+          <a href="/wang_chiro/items">Shop</a>
+        </MenuItem>
+        <MenuItem onClick={handleClose}>
+          <a href="/wang_chiro/team">About</a>
+        </MenuItem>
       </Menu>
       <a
         href="https://www.facebook.com/BellChiroStL/"
@@ -44,5 +60,5 @@ export default function SimpleMenu() {
         </IconButton>
       </a>
     </div>
-  );
+  )
 }

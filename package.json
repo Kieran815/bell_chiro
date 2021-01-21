@@ -4,7 +4,7 @@
   "author": "K. Michael Milligan",
   "description": "Wang Chriopractic and Pain Management; Serving St. Louis since 1977; Florissant, Missouri; Telemedicine; Car Accidents; Medical Marijuana Certification; Medical Marijuana; Low Testosterone Therapy; Low T Therapy; Low-T Therapy; Decompression",
   "license": "MIT",
-  "homepage": "https://kieran815.github.io/wang_chiro/",
+  "homepage": "https://kieran815.github.io/wang_chiro",
   "scripts": {
     "develop": "gatsby develop",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",

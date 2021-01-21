@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/wang_chiro`,
+  pathPrefix: "/wang_chiro",
   siteMetadata: {
     title: "Wang Chiropractic",
     contact: {
@@ -15,126 +15,126 @@ module.exports = {
     mobileMenuLinks: [
       {
         name: "Services",
-        link: "/services",
+        link: "/wang_chiro/services",
       },
       {
         name: "Shop",
-        link: "/items",
+        link: "/wang_chiro/items",
       },
       {
         name: "Meet Our Team",
-        link: "/team",
+        link: "/wang_chiro/team",
       },
     ],
     serviceLinks: [
       {
         name: "View All Services",
-        link: "/services",
+        link: "/wang_chiro/services",
       },
       {
         name: "Primary Care Services",
-        link: "/primary_care",
+        link: "/wang_chiro/services/primary_care",
       },
       {
         name: "Decompression",
-        link: "/decompression",
+        link: "/wang_chiro/services/decompression",
       },
       {
         name: "Testosterone  Replacement Therapy",
-        link: "/low_t_therapy",
+        link: "/wang_chiro/services/low_t_therapy",
       },
       {
         name: "Car Accidents",
-        link: "/accident",
+        link: "/wang_chiro/services/accident",
       },
       {
         name: "Medical Certification",
-        link: "/med_cert_eval",
+        link: "/wang_chiro/services/med_cert_eval",
       },
 
       {
         name: "Telemedicine",
-        link: "/telemedicine",
+        link: "/wang_chiro/services/telemedicine",
       },
 
       {
         name: "Decompression",
-        link: "/decompression",
+        link: "/wang_chiro/services/decompression",
       },
 
       {
         name: "DOT Physicals",
-        link: "/DOT_physicals",
+        link: "/wang_chiro/services/DOT_physicals",
       },
     ],
     itemLinks: [
       {
         name: "View All Health & Wellness Products",
-        link: "/items",
+        link: "/wang_chiro/items",
       },
       {
         name: "Neuro-Pro 250",
-        link: "/np_250",
+        link: "/wang_chiro/items/np_250",
       },
       {
         name: "Neuro-Pro 500",
-        link: "/np_500",
+        link: "/wang_chiro/items/np_500",
       },
       {
         name: "Neuro-Pro CoCo 500",
-        link: "/np_coco_500",
+        link: "/wang_chiro/items/np_coco_500",
       },
       {
         name: "Neuro-Pro 1000",
-        link: "/np_1000",
+        link: "/wang_chiro/items/np_1000",
       },
       {
         name: "Neuro-Pro CoCo 1000",
-        link: "/np_coco_1000",
+        link: "/wang_chiro/items/np_coco_1000",
       },
       {
         name: "Neuro-Pro 3000",
-        link: "/np_3000",
+        link: "/wang_chiro/items/np_3000",
       },
       {
         name: "Neuro-Pro 6000",
-        link: "/np_6000",
+        link: "/wang_chiro/items/np_6000",
       },
       {
         name: "Neuro-Pro Gold Capsules (30 ct)",
-        link: "/np_cap_gold",
+        link: "/wang_chiro/items/np_cap_gold",
       },
       {
         name: "Neuro-Pro Platinum Capsules (30 ct)",
-        link: "/np_cap_plat",
+        link: "/wang_chiro/items/np_cap_plat",
       },
       {
         name: "Neuro-Pro Night Capsules (30 ct)",
-        link: "/np_cap_night",
+        link: "/wang_chiro/items/np_cap_night",
       },
       {
         name: "Bath Bombs",
-        link: "/bath_bombs_150",
+        link: "/wang_chiro/items/bath_bombs_150",
       },
       {
         name: "Neuro-Pro Massage Lotion 1000",
-        link: "/np_lotion_1000",
+        link: "/wang_chiro/items/np_lotion_1000",
       },
       {
         name: "Neuro-Pro Massage Oil 1000",
-        link: "/np_massage_oil_1000",
+        link: "/wang_chiro/items/np_massage_oil_1000",
       },
       {
         name: "Neuro-Pro Pet 500",
-        link: "/np_pet_500",
+        link: "/wang_chiro/items/np_pet_500",
       },
       {
         name: "Neuro-Pro Pet 1000",
-        link: "/np_pet_1000",
+        link: "/wang_chiro/items/np_pet_1000",
       },
       {
         name: "Neuro-Pro Farm",
-        link: "/np_pet_farm",
+        link: "/wang_chiro/items/np_pet_farm",
       },
     ],
   },
